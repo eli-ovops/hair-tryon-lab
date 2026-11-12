@@ -1,0 +1,103 @@
+{
+  "fixture": "synthetic demo subject only; not real-person identity evidence",
+  "mask_method": "manual fixed-fixture geometry; no segmentation model downloaded",
+  "candidate_method": "prior ImageGen whole-image redraw baseline; no explicit mask API was available",
+  "threshold_per_channel_mean_abs_difference": 12,
+  "gates": {
+    "face": {
+      "changed_percent": 1.0,
+      "mean_abs_difference": 4.0
+    },
+    "ears": {
+      "changed_percent": 3.0,
+      "mean_abs_difference": 5.0
+    },
+    "neck": {
+      "changed_percent": 3.0,
+      "mean_abs_difference": 5.0
+    },
+    "protected_non_hair": {
+      "changed_percent": 3.0,
+      "mean_abs_difference": 5.0
+    }
+  },
+  "views": [
+    {
+      "view": "front",
+      "source": "/Users/USER/Documents/app/真实发型试戴MVP/evidence/throwaway-realness-bob-2026-08-07/output/input-front-same-size.png",
+      "candidate": "/Users/USER/Documents/app/真实发型试戴MVP/evidence/throwaway-realness-bob-2026-08-07/output/bob-front.png",
+      "stats": {
+        "face": {
+          "pixels": 79896,
+          "mean_abs_difference": 52.236,
+          "changed_pixels": 62833,
+          "changed_percent": 78.643
+        },
+        "ears": {
+          "pixels": 9064,
+          "mean_abs_difference": 75.979,
+          "changed_pixels": 5685,
+          "changed_percent": 62.721
+        },
+        "neck": {
+          "pixels": 29040,
+          "mean_abs_difference": 11.39,
+          "changed_pixels": 9139,
+          "changed_percent": 31.47
+        },
+        "protected_non_hair": {
+          "pixels": 455973,
+          "mean_abs_difference": 29.652,
+          "changed_pixels": 167104,
+          "changed_percent": 36.648
+        }
+      },
+      "failures": [
+        "face",
+        "ears",
+        "neck",
+        "protected_non_hair"
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "view": "left",
+      "source": "/Users/USER/Documents/app/真实发型试戴MVP/evidence/throwaway-realness-bob-2026-08-07/output/input-left-same-size.png",
+      "candidate": "/Users/USER/Documents/app/真实发型试戴MVP/evidence/throwaway-realness-bob-2026-08-07/output/bob-left.png",
+      "stats": {
+        "face": {
+          "pixels": 79292,
+          "mean_abs_difference": 39.167,
+          "changed_pixels": 53320,
+          "changed_percent": 67.245
+        },
+        "ears": {
+          "pixels": 7992,
+          "mean_abs_difference": 51.796,
+          "changed_pixels": 6102,
+          "changed_percent": 76.351
+        },
+        "neck": {
+          "pixels": 30560,
+          "mean_abs_difference": 9.357,
+          "changed_pixels": 6846,
+          "changed_percent": 22.402
+        },
+        "protected_non_hair": {
+          "pixels": 446998,
+          "mean_abs_difference": 24.78,
+          "changed_pixels": 141458,
+          "changed_percent": 31.646
+        }
+      },
+      "failures": [
+        "face",
+        "ears",
+        "neck",
+        "protected_non_hair"
+      ],
+      "verdict": "FAIL"
+    }
+  ],
+  "verdict": "FAIL"
+}

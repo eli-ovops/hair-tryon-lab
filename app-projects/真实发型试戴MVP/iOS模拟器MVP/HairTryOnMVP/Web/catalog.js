@@ -1,0 +1,14 @@
+const catalogRoot="assets/catalog";
+const catalogState={entries:[],gender:"all",length:"all",selectedId:null};
+const options=document.querySelector("#styleOptions"),count=document.querySelector("#catalogCount"),lengthSelect=document.querySelector("#catalogLength");
+const localizedLength={buzz:"超短",short:"短发",medium:"中长",long:"长发"};
+const trialNames=new Set(["女性精灵短发","女性波波头","女性紧卷层次","男性精灵短发","男性波波头","男性紧卷层次"]);
+const visibleEntries=()=>catalogState.entries.filter(entry=>(catalogState.gender==="all"||entry.genderFilter===catalogState.gender)&&(catalogState.length==="all"||entry.length===catalogState.length));
+function statusFor(entry){return trialNames.has(entry.nameZh)?"技术试验":"仅目录";}
+function render({scrollTop=options.scrollTop}={}){const entries=visibleEntries();count.textContent=`显示 ${entries.length} / ${catalogState.entries.length} 款`;options.replaceChildren(...entries.map(entry=>{const button=document.createElement("button");button.className="style-option catalog-option";button.type="button";button.dataset.style=["buzz","short"].includes(entry.length)?"short":"bob";button.dataset.catalogId=entry.id;button.classList.toggle("selected",entry.id===catalogState.selectedId);button.setAttribute("aria-pressed",String(entry.id===catalogState.selectedId));const status=document.createElement("span");status.className=`catalog-status ${statusFor(entry)==="技术试验"?"is-trial":""}`;status.textContent=statusFor(entry);const title=document.createElement("b");title.textContent=entry.nameZh;const metadata=document.createElement("small");metadata.textContent=`${localizedLength[entry.length]} · ${entry.texture.join("/")}`;button.append(status,title,metadata);button.addEventListener("click",()=>select(entry));return button;}));options.scrollTop=scrollTop;}
+function select(entry){const scrollTop=options.scrollTop;catalogState.selectedId=entry.id;render({scrollTop});window.dispatchEvent(new CustomEvent("haircatalog:select",{detail:{entry}}));}
+document.querySelectorAll(".catalog-filter").forEach(button=>button.addEventListener("click",()=>{catalogState.gender=button.dataset.gender;document.querySelectorAll(".catalog-filter").forEach(item=>item.classList.toggle("active",item===button));render();}));
+lengthSelect.addEventListener("change",()=>{catalogState.length=lengthSelect.value;render();});
+Promise.all(["women-50.json","men-50.json"].map(file=>fetch(`${catalogRoot}/${file}`).then(response=>{if(!response.ok)throw new Error(`${file} 载入失败`);return response.json();}))).then(groups=>{catalogState.entries=groups.flat();const ids=new Set(catalogState.entries.map(entry=>entry.id));if(catalogState.entries.length!==100||ids.size!==100)throw new Error("目录数量或 ID 不符合 100 款唯一条目要求");select(catalogState.entries[0]);}).catch(error=>{count.textContent=`目录载入失败：${error.message}`;});
+export {catalogState};
+

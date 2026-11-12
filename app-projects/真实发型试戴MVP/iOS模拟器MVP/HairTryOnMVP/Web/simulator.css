@@ -1,0 +1,17 @@
+#testBanner.simulator-note {
+  position: fixed;
+  z-index: 40;
+  top: calc(env(safe-area-inset-top) + 76px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  margin: 0;
+  padding: 7px 11px;
+  border-radius: 999px;
+  color: rgba(255,255,255,.92);
+  background: rgba(0,0,0,.58);
+  font: 11px/1.35 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  text-align: center;
+  pointer-events: none;
+}

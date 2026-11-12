@@ -1,0 +1,96 @@
+schema_version: "1.0"
+status: "draft"
+site_id: "local-hairstyle-decision-throwaway-mvp"
+project: "真实发型试戴 MVP"
+confirmed_by: "待用户本人测试"
+confirmed_at: null
+no_secret_values: true
+
+server:
+  reference: "local-python-http-server-only"
+  owner: "local-user"
+
+environments:
+  preview:
+    enabled: true
+    public_url: "http://127.0.0.1:4173/"
+    admin_path: null
+  production:
+    enabled: false
+    public_url: null
+    admin_path: null
+
+repository:
+  repo_url: null
+  approved_branch: null
+  production_branch: null
+  commit_sha_required: false
+
+architecture: "static"
+
+toolchain:
+  node: "not-required; local validation used v22.16.0"
+  pnpm_major: null
+  package_manager: null
+  lockfile: null
+  payload_version: null
+
+runtime:
+  app_port_reference: "127.0.0.1:4173"
+  health_port_reference: "127.0.0.1:4173"
+
+deployment:
+  call_carrier: "local"
+  forced_command_reference: null
+  allowed_modes: []
+  guide_reference: "README.md"
+  production_approval_required: true
+  authorization_reference: "local-only prototype task"
+  deploy_owner: null
+  validate_required: false
+  status_required: false
+
+storage:
+  code_reference: "prototype directory"
+  releases_reference: null
+  database_reference: null
+  media_reference: "browser-memory-only user-selected photos; local vendored MediaPipe model assets"
+
+database:
+  type: null
+  credential_secret_ref: null
+  business_data_in_file: false
+
+media:
+  credential_secret_ref: null
+  managed_separately_from_code: true
+
+roles:
+  owner: "user"
+  developer: "current independent execution thread"
+  server_owner: "not-applicable-local-only"
+
+migration:
+  required: false
+  required_for_localization: false
+  procedure_reference: null
+  production_approval_required: true
+
+backup:
+  procedure_reference: null
+  database_and_media_separate: true
+  restore_rehearsal_required: false
+
+release_retention:
+  policy_reference: null
+  previous_accepted_release_required: false
+
+health_checks:
+  public_page: "HTTP GET / and /scan.html return 200 locally"
+  application: "browser smoke on desktop and mobile widths; camera paths require explicit user permission"
+  admin: null
+  api: null
+
+rollback:
+  procedure_reference: "throwaway directory; no production state"
+  explicit_authorization_required: true

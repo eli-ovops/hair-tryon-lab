@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="真实发型试戴：产品视觉与 UI/UX 设计预览，不调用摄像头，不生成真实发型。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23185c4a'/%3E%3Cpath d='M9 19c1-8 4-11 7-11s7 3 7 11v5H9z' fill='%23f6f3ec'/%3E%3C/svg%3E">
+  <title>剪之前 · 产品设计预览</title>
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <a class="skip" href="#preview-main">跳到主要内容</a>
+  <main class="stage" id="preview-main" aria-label="产品设计预览" tabindex="-1">
+    <header class="site-head"><span class="eyebrow">REALITY DECISION TOOL</span><span>设计预览 · 非真实试戴</span></header>
+    <section class="phone-shell" aria-label="375 像素移动端产品原型">
+      <div class="device-bar"><span>9:41</span><span class="lens">● ● ●</span><span>100%</span></div>
+      <div class="app-head"><button class="icon-button" data-action="back" aria-label="返回上一页" title="返回"><svg aria-hidden="true"><use href="#i-back"/></svg></button><strong>剪之前</strong><button class="icon-button" data-action="info" aria-label="查看设计预览说明" title="说明"><svg aria-hidden="true"><use href="#i-info"/></svg></button></div>
+      <div class="screens" aria-live="polite">
+        <section class="screen active intro" data-screen="intro" aria-labelledby="title-intro">
+          <p class="kicker">剪之前 · 现实决策本</p>
+          <h1 id="title-intro">先说清楚，<em>再剪下去。</em></h1>
+          <p class="lede">这不是美颜编辑器。我们把你的发质、打理时间和正侧面一致性放在“好看”前面。</p>
+          <div class="paper-portrait" aria-label="抽象人物轮廓示意"><svg viewBox="0 0 260 280" role="img" aria-label="带有发型轮廓的抽象人像"><use href="#portrait-bob"/></svg><span class="note n1">不改脸</span><span class="note n2">不虚增发量</span><span class="note n3">只作讨论草图</span></div>
+          <div class="promise"><svg aria-hidden="true"><use href="#i-lock"/></svg><span><b>画面默认留在本机浏览器</b><small>不录制 · 不上传 · 随时停止和清除</small></span></div>
+          <button class="primary" data-go="privacy">开始梳理我的决定 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+          <p class="fine">你仍需要和发型师确认可行性。结果不代表剪后效果。</p>
+        </section>
+
+        <section class="screen" data-screen="privacy" aria-labelledby="title-privacy">
+          <p class="kicker">开始前 · 01 / 08</p><h1 id="title-privacy">你控制画面，<em>也控制下一步。</em></h1>
+          <div class="rule-list"><article><svg aria-hidden="true"><use href="#i-phone"/></svg><div><b>本机内处理</b><p>摄像头帧只用于本次校准；没有账号、云相册或生物模板。</p></div></article><article><svg aria-hidden="true"><use href="#i-stop"/></svg><div><b>随时可停止</b><p>停止会释放摄像头，并清空本次校准与选择。</p></div></article><article><svg aria-hidden="true"><use href="#i-card"/></svg><div><b>两种确认深度</b><p>实时只看形态；三照片用于后续的多角度讨论。</p></div></article></div>
+          <aside class="soft-note"><b>为什么要校准？</b> 正面、左侧和右侧能帮助我们在有限角度内保持轮廓一致；不是 3D 扫描。</aside>
+          <button class="primary" data-go="scan">同意并进行本地校准 <svg aria-hidden="true"><use href="#i-next"/></svg></button><button class="secondary" data-go="threeview">我想直接用三照片确认</button>
+        </section>
+
+        <section class="screen scan" data-screen="scan" aria-labelledby="title-scan">
+          <p class="kicker">本地校准 · 02 / 08</p><h1 id="title-scan">正脸居中，<em>稳定一小会。</em></h1>
+          <div class="camera-frame"><span class="range">有效范围约 ±40°</span><svg class="head-guide" viewBox="0 0 260 310" role="img" aria-label="正脸校准示意"><use href="#portrait-guide"/></svg><span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span><div class="face-chip"><span class="dot"></span> 已识别 1 人</div></div>
+          <div class="stepper" aria-label="校准进度"><span class="done">01 正脸</span><span>02 左转</span><span>03 回正</span><span>04 右转</span></div>
+          <p class="state-copy"><b>保持稳定</b><br>眼线接近水平，脸保持在框内。</p>
+          <button class="primary" data-go="selection">模拟完成校准 <svg aria-hidden="true"><use href="#i-next"/></svg></button><button class="secondary" data-go="privacy">停止并清除</button>
+        </section>
+
+        <section class="screen" data-screen="selection" aria-labelledby="title-selection">
+          <p class="kicker">真实条件 · 03 / 08</p><h1 id="title-selection">先选方向，<em>不选滤镜。</em></h1>
+          <div class="profile-strip"><span>现长：锁骨</span><span>自然纹理：微卷</span><span>打理：10 分钟</span></div>
+          <p class="section-label">适合今天条件的三个方向</p>
+          <div class="style-stack"><button class="style-card selected" data-style="短层次"><span class="swatch short"></span><span><b>短层次</b><small>耳上轻薄，顶部保留呼吸感</small></span><i>剪短幅度<br><b>明显</b></i></button><button class="style-card" data-style="柔和 Bob"><span class="swatch bob"></span><span><b>柔和 Bob</b><small>下巴线重量，侧面需要确认</small></span><i>每日打理<br><b>中等</b></i></button><button class="style-card" data-style="保留长度"><span class="swatch long"></span><span><b>保留长度</b><small>只调整层次和刘海关系</small></span><i>改变幅度<br><b>保守</b></i></button></div>
+          <button class="primary" data-go="live">带两个方向去实时试戴 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+        </section>
+
+        <section class="screen live" data-screen="live" aria-labelledby="title-live">
+          <p class="kicker">实时形态 · 04 / 08</p><h1 id="title-live">转头时，<em>轮廓能跟上吗？</em></h1>
+          <div class="live-canvas"><span class="range">实时 AR 轮廓 · 不是照片级生成</span><svg viewBox="0 0 260 310" role="img" aria-label="Bob 发型轮廓试戴示意"><use href="#portrait-bob"/></svg><div class="tracking-pill"><span class="dot"></span> 跟随稳定 · 约 34°</div></div>
+          <div class="segmented" role="group" aria-label="选择试戴方向"><button class="active">短层次</button><button>柔和 Bob</button></div>
+          <aside class="callout"><svg aria-hidden="true"><use href="#i-eye"/></svg><span><b>现在看的是形态，不是剪后承诺。</b><small>耳朵、眼镜、手和头发遮挡仍可能穿模。</small></span></aside>
+          <button class="primary" data-go="threeview">用三视图确认细节 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+        </section>
+
+        <section class="screen" data-screen="threeview" aria-labelledby="title-threeview">
+          <p class="kicker">高质量确认 · 05 / 08</p><h1 id="title-threeview">别只看正脸，<em>侧面也要说得通。</em></h1>
+          <div class="views"><figure><svg viewBox="0 0 100 126" role="img" aria-label="正面抽象发型示意"><use href="#mini-front"/></svg><figcaption>正面</figcaption></figure><figure><svg viewBox="0 0 100 126" role="img" aria-label="左侧抽象发型示意"><use href="#mini-side"/></svg><figcaption>左侧</figcaption></figure><figure><svg viewBox="0 0 100 126" role="img" aria-label="右侧抽象发型示意"><use href="#mini-side" transform="translate(100 0) scale(-1 1)"/></svg><figcaption>右侧</figcaption></figure></div>
+          <div class="check-list"><p><svg aria-hidden="true"><use href="#i-check"/></svg> 保持原来的脸与脸部比例</p><p><svg aria-hidden="true"><use href="#i-check"/></svg> 不把细软发模拟成更高发量</p><p><svg aria-hidden="true"><use href="#i-check"/></svg> 刘海和发旋限制单独标出</p></div>
+          <button class="primary" data-go="feasibility">查看现实可实现性 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+        </section>
+
+        <section class="screen" data-screen="feasibility" aria-labelledby="title-feasibility">
+          <p class="kicker">现实可实现性 · 06 / 08</p><h1 id="title-feasibility">不是“哪张更漂亮”，<em>而是哪张更说得通。</em></h1>
+          <div class="decision-card"><div><span class="tag">优先讨论</span><h2>柔和 Bob</h2><p>因为你的自然微卷和现有长度，先保留下巴线重量，再让发型师确认侧面蓬度。</p></div><svg viewBox="0 0 90 110" aria-hidden="true"><use href="#mini-front"/></svg></div>
+          <div class="meter"><span>发质匹配</span><b>可讨论</b><i><em style="width:72%"></em></i></div><div class="meter"><span>正侧面一致</span><b>需现场确认</b><i><em style="width:58%"></em></i></div><div class="meter"><span>每日打理</span><b>约 10–15 分钟</b><i><em style="width:65%"></em></i></div>
+          <aside class="warning"><svg aria-hidden="true"><use href="#i-warn"/></svg><span><b>发旋与刘海是现场变量。</b><small>这里不替代理发师的剪裁判断。</small></span></aside>
+          <button class="primary" data-go="card">做成发型师参考卡 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+        </section>
+
+        <section class="screen card-screen" data-screen="card" aria-labelledby="title-card">
+          <p class="kicker">带去沟通 · 07 / 08</p><h1 id="title-card">一张卡，<em>把想要的说具体。</em></h1>
+          <article class="stylist-card"><header><span>剪之前</span><small>发型师讨论卡</small></header><h2>柔和 Bob · 先讨论</h2><div class="card-grid"><span><b>现在</b>锁骨长度 / 微卷 / 细软</span><span><b>希望</b>下巴线重量 / 不显厚重</span><span><b>避免</b>虚增发量 / 侧面塌陷</span><span><b>打理</b>每天 10–15 分钟</span></div><p class="card-question">问发型师：以我的发旋和刘海，侧面该保留多少层次？</p><footer>原型模拟，不代表剪后效果</footer></article>
+          <button class="primary" data-go="summary">查看完整流程总结 <svg aria-hidden="true"><use href="#i-next"/></svg></button><button class="secondary" data-go="selection">回去换一个方向</button>
+        </section>
+
+        <section class="screen summary" data-screen="summary" aria-labelledby="title-summary">
+          <p class="kicker">设计预览 · 08 / 08</p><h1 id="title-summary">一条从犹豫到<em>可讨论决定</em>的路径。</h1>
+          <ol><li><b>实时</b><span>看有限角度里的形态连续性</span></li><li><b>三视图</b><span>用原图讨论正、左、右的关系</span></li><li><b>现实条件</b><span>把发质、密度、打理时间放进判断</span></li><li><b>参考卡</b><span>让发型师在现场继续完成判断</span></li></ol>
+          <aside class="soft-note"><b>这是视觉和流程预览。</b> 它不调用摄像头、不上传照片，也不连接第二阶段的实际追踪逻辑。</aside>
+          <button class="primary" data-go="intro">从头浏览预览 <svg aria-hidden="true"><use href="#i-next"/></svg></button>
+        </section>
+      </div>
+      <nav class="bottom-nav" aria-label="设计预览导航"><button data-go="intro" aria-label="决策"><svg aria-hidden="true"><use href="#i-home"/></svg><span>决定</span></button><button data-go="live" aria-label="试戴"><svg aria-hidden="true"><use href="#i-scan"/></svg><span>试戴</span></button><button data-go="threeview" aria-label="对比"><svg aria-hidden="true"><use href="#i-compare"/></svg><span>对比</span></button><button data-go="card" aria-label="参考卡"><svg aria-hidden="true"><use href="#i-card"/></svg><span>参考卡</span></button></nav>
+    </section>
+    <aside class="legend"><b>本页是静态/轻交互设计预览</b><span>不调用摄像头 · 不连接真实识别 · 不使用竞品素材</span><span>用屏幕切换检验视觉与流程，非用户验收。</span></aside>
+  </main>
+  <svg class="defs" aria-hidden="true"><defs>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M5 12h13m-5-5 5 5-5 5"/></symbol><symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H6m5 5-5-5 5-5"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 11v5m0-8h.01"/></symbol><symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></symbol><symbol id="i-stop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/></symbol><symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 10h10M7 14h6"/></symbol><symbol id="i-eye" viewBox="0 0 24 24"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6Z"/><circle cx="12" cy="12" r="2.5"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol><symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 4 3.8 19h16.4L12 4Z"/><path d="M12 9v4m0 3h.01"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m4 11 8-7 8 7v8H4v-8Z"/></symbol><symbol id="i-scan" viewBox="0 0 24 24"><path d="M5 9V5h4m6 0h4v4m0 6v4h-4M9 19H5v-4"/><circle cx="12" cy="12" r="3"/></symbol><symbol id="i-compare" viewBox="0 0 24 24"><path d="M5 5h6v14H5zM13 5h6v14h-6z"/></symbol>
+    <symbol id="portrait-guide" viewBox="0 0 260 310"><ellipse cx="130" cy="158" rx="63" ry="84" fill="#E1B18A"/><path d="M66 151C66 78 101 43 130 43c35 0 66 34 66 108l-22 20v-26c0-31-17-57-44-57s-44 26-44 57v26Z" fill="#5F5046"/><path d="M106 153h12m12 0h12" stroke="#1D211E" fill="none"/><path d="M118 197h24" stroke="#A9694B" fill="none"/><path d="M76 266c12-26 38-40 54-40s42 14 54 40" fill="#C9D4CC"/></symbol>
+    <symbol id="portrait-bob" viewBox="0 0 260 310"><ellipse cx="130" cy="160" rx="61" ry="84" fill="#E1B18A"/><path d="M60 152C62 69 103 37 132 39c45 3 73 44 69 121l-22 59-25-12v-58c0-26-8-52-24-57-19 1-27 31-27 57v58l-25 13Z" fill="#594A42"/><path d="M88 129c13-17 62-28 93 2-26-5-63-5-93-2Z" fill="#714E40"/><path d="M106 158h12m12 0h12" stroke="#1D211E" fill="none"/><path d="M119 198h22" stroke="#A9694B" fill="none"/><path d="M75 274c12-29 39-43 55-43s43 14 55 43" fill="#C9D4CC"/></symbol>
+    <symbol id="mini-front" viewBox="0 0 100 126"><ellipse cx="50" cy="65" rx="22" ry="31" fill="#E1B18A"/><path d="M24 68C24 30 39 16 51 16c18 1 29 19 27 52l-8 22-9-4V62c0-12-4-22-11-22s-11 10-11 22v24l-10 4Z" fill="#594A42"/><path d="M30 111c5-11 12-16 20-16s15 5 20 16" fill="#C9D4CC"/></symbol>
+    <symbol id="mini-side" viewBox="0 0 100 126"><path d="M34 68c0-26 14-42 31-42 15 0 26 14 26 38v26L74 94V67c0-13-7-24-17-24-11 0-18 12-18 26v21l-11-4Z" fill="#594A42"/><path d="M39 62c3-16 13-25 24-22 10 4 13 15 11 30l8 6-12 4c-4 11-13 16-21 10-9-7-10-17-10-28Z" fill="#E1B18A"/><path d="M34 112c6-12 14-17 23-17s17 5 22 17" fill="#C9D4CC"/></symbol>
+  </defs></svg>
+  <script src="preview.js"></script>
+</body>
+</html>

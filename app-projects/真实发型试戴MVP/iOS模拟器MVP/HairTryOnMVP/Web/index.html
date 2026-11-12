@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="本地运行的发型沟通原型。" />
+  <title>真实发型试戴</title>
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="simulator.css" />
+</head>
+<body data-mode="onboarding" data-camera-live="false" data-comparing="false" data-has-result="false">
+  <main class="tryon-app" aria-live="polite">
+    <section class="camera-surface" id="cameraSurface" aria-label="相机预览">
+      <img class="placeholder-photo" id="previewPlaceholder" src="assets/ui-v2/scan-placeholder-front.png" alt="本地演示用正面照片；摄像头未开启时显示" />
+      <video id="camera" playsinline muted aria-label="实时摄像头预览"></video><canvas id="fakeSource" width="960" height="720" hidden></canvas><canvas id="hairCanvas" width="960" height="720" aria-label="实时发型轮廓叠加层"></canvas>
+      <div class="camera-scrim"></div><p class="local-note">仅在本机处理</p><p class="model-loading" id="modelLoading" hidden>正在准备本地关键点</p><p class="feedback-toast" id="feedback" role="status">准备建立你的参考档案</p><p class="out-range" id="outRange" hidden>请缓慢转回</p>
+    </section>
+
+    <section class="screen screen-onboarding" aria-label="开始试戴">
+      <div class="intro-copy"><p class="eyebrow">HAIR REFERENCE / 本地原型</p><h1>让下一次剪发，<br />有一张更清楚的参考。</h1><p>用三张照片、你的真实发质档案和 100 款参考目录，整理一张可保存的沟通卡。</p></div>
+      <div class="intro-footer"><p>当前是本地轮廓技术试验，不上传照片，也不生成真实换发图。</p><button class="primary-action full-action" id="beginJourney" type="button">开始建立档案</button></div>
+    </section>
+
+    <section class="screen screen-intake" aria-label="导入三张参考照片">
+      <header class="plain-topbar"><button class="back-control" id="backToOnboarding" type="button">返回</button><p>第 1 步，共 3 步</p></header>
+      <div class="flow-copy"><p class="eyebrow">参考照片</p><h1>先收下三个角度。</h1><p>正面、左侧、右侧会留在此设备的当前会话中，用于组织你的参考卡。</p></div>
+      <div class="photo-slots" aria-label="照片导入状态">
+        <button class="photo-slot" type="button" data-photo="front"><b>正面</b><small>选择照片</small></button><button class="photo-slot" type="button" data-photo="left"><b>左侧</b><small>选择照片</small></button><button class="photo-slot" type="button" data-photo="right"><b>右侧</b><small>选择照片</small></button>
+      </div>
+      <input id="photoFront" data-photo-input="front" type="file" accept="image/*" hidden /><input id="photoLeft" data-photo-input="left" type="file" accept="image/*" hidden /><input id="photoRight" data-photo-input="right" type="file" accept="image/*" hidden />
+      <div class="flow-footer"><button class="text-action" id="useDemoPhotos" type="button">使用本地演示资料继续</button><button class="primary-action full-action" id="intakeContinue" type="button" disabled>继续填写现实档案</button></div>
+    </section>
+
+    <section class="screen screen-profile" aria-label="现实发质档案">
+      <header class="plain-topbar"><button class="back-control" id="backToIntake" type="button">返回</button><p>第 2 步，共 3 步</p></header>
+      <div class="flow-copy"><p class="eyebrow">现实档案</p><h1>先认识你现在的头发。</h1><p>这是给发型师的沟通线索，不用于识别或上传。</p></div>
+      <form class="profile-form" id="profileForm"><fieldset><legend>当前长度</legend><div class="choice-row" data-profile="length"><button type="button" data-value="short">耳上 / 短</button><button type="button" data-value="medium">肩上 / 中</button><button type="button" data-value="long">肩下 / 长</button></div></fieldset><fieldset><legend>卷度</legend><div class="choice-row" data-profile="texture"><button type="button" data-value="straight">直</button><button type="button" data-value="wave">微卷</button><button type="button" data-value="curly">卷曲</button><button type="button" data-value="coily">紧卷</button></div></fieldset><fieldset><legend>发量感受</legend><div class="choice-row" data-profile="density"><button type="button" data-value="light">偏轻</button><button type="button" data-value="balanced">适中</button><button type="button" data-value="full">丰盈</button></div></fieldset></form>
+      <div class="flow-footer"><p class="form-hint" id="profileHint">完成三项后即可进入扫描。</p><button class="primary-action full-action" id="profileContinue" type="button" disabled>进入头型扫描</button></div>
+    </section>
+
+    <section class="screen screen-scan" aria-label="头型扫描"><header class="topbar topbar-dark"><button class="text-control" id="exitScan" type="button">返回</button><h1>扫描头型</h1><button class="text-control" id="scanHelp" type="button">帮助</button></header><div class="face-guide" aria-hidden="true"></div><section class="scan-progress" aria-label="扫描进度"><ol id="calibrationList"><li data-phase="center"><span></span><b>正面</b></li><li data-phase="left"><span></span><b>向左转</b></li><li data-phase="return_center"><span></span><b>回正</b></li><li data-phase="right"><span></span><b>向右转</b></li></ol></section><section class="scan-dock"><p id="phaseTitle">准备扫描</p><small id="phaseCue">请把头部放入椭圆引导内</small><div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div><button class="scan-trigger" id="startScan" type="button">开始扫描</button><button class="scan-stop" id="stopScan" type="button" disabled>停止</button><button class="scan-retry" id="retryScan" type="button" hidden>重新开始</button></section></section>
+
+    <section class="screen screen-style" aria-label="选择发型"><header class="topbar topbar-light"><button class="text-control" id="backToProfile" type="button">返回</button><div class="top-actions"><button class="pill-control" id="compareToggle" type="button">对比</button><button class="save-control" id="saveTop" type="button">保存</button></div></header><section class="style-sheet" id="styleCard" aria-label="发型选择"><span class="sheet-handle" aria-hidden="true"></span><div class="sheet-tabs" role="tablist" aria-label="试戴选项"><button class="sheet-tab active" id="hairTab" type="button" role="tab" aria-selected="true" aria-controls="hairPanel">发型目录</button><button class="sheet-tab" id="colorTab" type="button" role="tab" aria-selected="false" aria-controls="colorPanel">颜色</button></div><div id="hairPanel" role="tabpanel" aria-labelledby="hairTab"><p class="sheet-caption">100 款发型参考。Pixie、Bob、Coily 标记为技术试验；其余仅供目录沟通，不等于真实试戴。</p><div class="catalog-filters" aria-label="发型筛选"><div class="filter-row" role="group" aria-label="性别筛选"><button class="catalog-filter active" data-gender="all" type="button">全部</button><button class="catalog-filter" data-gender="female" type="button">女性</button><button class="catalog-filter" data-gender="male" type="button">男性</button></div><label class="catalog-select-label">长度<select id="catalogLength"><option value="all">全部长度</option><option value="buzz">超短</option><option value="short">短发</option><option value="medium">中长</option><option value="long">长发</option></select></label></div><p class="catalog-count" id="catalogCount">正在载入 100 款发型…</p><div class="style-options catalog-options" id="styleOptions" aria-label="发型卡片"></div></div><div id="colorPanel" role="tabpanel" aria-labelledby="colorTab" hidden><p class="sheet-caption">颜色仅改变当前轮廓原型，不代表染发或真实换发结果。</p><div class="color-options" role="group" aria-label="轮廓颜色"><button class="color-option selected" data-color="natural" type="button">自然黑</button><button class="color-option" data-color="espresso" type="button">深棕</button><button class="color-option" data-color="chestnut" type="button">栗棕</button><button class="color-option" data-color="copper" type="button">铜棕</button><button class="color-option" data-color="ash" type="button">冷灰</button><button class="color-option" data-color="silver" type="button">银灰</button></div></div><div class="style-actions"><button class="subtle-action" id="stopTop" type="button" disabled>停止相机</button><button class="primary-action" id="viewResult" type="button">生成参考视图</button></div></section></section>
+
+    <section class="screen screen-generating" aria-label="准备参考视图"><header class="topbar topbar-light"><button class="text-control" id="backToStyle" type="button">返回</button></header><div class="generation-copy"><p class="eyebrow">技术试验</p><h1>正在整理你的<br />三视角参考。</h1><p>这是轮廓原型的准备状态：不会调用真实 AI 换发或上传照片。</p><div class="generation-status"><span></span><b id="generationLabel">目录与颜色已记录</b></div></div><div class="generation-footer"><button class="primary-action full-action" id="showResult" type="button">查看原型结果</button></div></section>
+
+    <section class="screen screen-result" aria-label="试戴结果"><header class="topbar topbar-light"><button class="text-control" id="backToStyleFromResult" type="button">返回</button><div class="result-tabs" role="tablist" aria-label="结果角度"><button class="result-tab active" type="button" data-view="front" role="tab" aria-selected="true">正面</button><button class="result-tab" type="button" data-view="side" role="tab" aria-selected="false">侧面</button></div><button class="save-control" id="saveResult" type="button">保存</button></header><p class="prototype-badge">轮廓技术试验 · 非真实生成</p><div class="compare-line" aria-hidden="true"><span>对比</span></div><img class="side-thumbnail" id="sideThumbnail" src="assets/ui-v2/short-layers-demo-side.png" alt="本地演示侧面照片" /><section class="result-sheet"><span class="sheet-handle" aria-hidden="true"></span><p id="resultSummary">已记录当前选择</p><div class="result-actions"><button class="outline-action" id="reselectStyle" type="button">重新选择</button><button class="primary-action" id="saveReference" type="button">保存参考</button></div></section><nav class="result-nav" aria-label="结果导航"><button id="navTryOn" type="button">试戴</button><button id="navCompare" type="button">对比</button><button id="navReferences" type="button">参考卡</button></nav></section>
+
+    <section class="screen screen-references" aria-label="参考卡"><header class="plain-topbar"><button class="back-control" id="backFromReferences" type="button">返回</button><p>你的参考卡</p></header><div class="reference-copy"><p class="eyebrow">已保存的方向</p><h1>带去和发型师聊聊。</h1><p>这里记录你在当前会话中保存的目录、颜色与现实档案。</p></div><article class="reference-card"><p>当前沟通参考</p><h2 id="referenceTitle">等待选择发型</h2><dl><div><dt>颜色</dt><dd id="referenceColor">自然黑</dd></div><div><dt>现实档案</dt><dd id="referenceProfile">待填写</dd></div></dl></article><div class="flow-footer"><button class="outline-action full-action" id="returnToTryOn" type="button">继续试戴</button></div></section>
+    <p id="testBanner" hidden></p><p id="inputMode" hidden>等待摄像头</p><span id="yawValue" hidden></span><span id="rollValue" hidden></span><span id="scaleValue" hidden></span><span id="fpsValue" hidden></span><span id="phaseCount" hidden>0 / 4</span><output id="opacityValue" hidden>68%</output><input id="hairOpacity" type="range" min="35" max="90" value="68" hidden />
+  </main><script type="module" src="scan.js"></script>
+</body></html>
+

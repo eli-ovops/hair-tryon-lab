@@ -1,0 +1,1544 @@
+[
+  {
+    "id": "w-buzz-cut-fem",
+    "genderFilter": "female",
+    "nameZh": "女性圆寸",
+    "nameEn": "Feminine Buzz Cut",
+    "category": "Buzz / 超短",
+    "length": "buzz",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "整体贴着头骨轮廓的均匀短圆寸，无任何层次起伏，发际线保持自然。",
+    "keyCutFeatures": [
+      "全头等长 6-8mm 贴剪",
+      "保留自然发际线，不做推光",
+      "鬓角与耳周轻修",
+      "顶部比两侧略长 1-2mm 以柔化轮廓"
+    ],
+    "maintenance": "low",
+    "dailyStylingMinutes": "0-2 分钟",
+    "realisticFor": "中等至浓密发量、健康头皮、愿意接受极短长度的女性；发质无论直发或微卷都适用。",
+    "notIdealFor": "非常在意脸型覆盖的场合；头皮敏感或头皮疤痕需要慎重；极细软发会显得更贴头。",
+    "stylistInstruction": "Uniform buzz cut, 6-8mm guard all over, natural hairline kept, clean up nape and ear edges lightly.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her late 20s with natural black, medium-density straight hair in a uniform 6-8mm feminine buzz cut following the skull shape, natural hairline intact. Neutral light-gray background, soft even lighting, camera at eye level, shows hairline, temples and ears clearly. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman in her late 20s with the same uniform feminine buzz cut, head turned showing left profile, natural hairline, left temple and ear visible, even 6-8mm length across the skull. Neutral light-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman in her late 20s with the same uniform feminine buzz cut, head turned showing right profile, natural hairline, right temple and ear visible, even 6-8mm length across the skull. Neutral light-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-tapered-buzz-fem",
+    "genderFilter": "female",
+    "nameZh": "女性渐变圆寸",
+    "nameEn": "Tapered Buzz Cut (Female)",
+    "category": "Buzz / 超短",
+    "length": "buzz",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "底部从发际线向上渐变的圆寸，顶部保留约 1.5cm，颈背有柔和收窄。",
+    "keyCutFeatures": [
+      "后颈与两侧从 1-2mm 渐变到顶部长 12-15mm",
+      "顶部轻微保留长度形成圆顶",
+      "鬓角自然过渡",
+      "后颈线轻修成自然圆弧"
+    ],
+    "maintenance": "low",
+    "dailyStylingMinutes": "0-2 分钟",
+    "realisticFor": "细软至中等直发、想要比均匀圆寸更柔和的女性；适合展示好看的头骨线条。",
+    "notIdealFor": "浓密粗硬发质的自然卷发，渐变会被卷度打乱；头皮敏感者需谨慎。",
+    "stylistInstruction": "Tapered buzz: 1-2mm at the nape and sides grading up to 12-15mm on top, soft rounded nape line, keep temples natural.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural dark-blonde, fine straight hair in a tapered feminine buzz cut, top about 12-15mm blending into shorter sides and a soft rounded nape. Neutral warm-gray background, soft even lighting, camera at eye level, shows hairline, temples and ears. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman in her early 30s with the same tapered buzz cut, left profile showing the gradient from short nape to longer top, left ear and temple visible. Neutral warm-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman in her early 30s with the same tapered buzz cut, right profile showing the gradient from short nape to longer top, right ear and temple visible. Neutral warm-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-micro-pixie",
+    "genderFilter": "female",
+    "nameZh": "微型精灵短发",
+    "nameEn": "Micro Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "micro",
+    "silhouette": "极短贴头、顶部碎短、前额有 2-3cm 的微刘海碎发，整体是圆润的短头廓。",
+    "keyCutFeatures": [
+      "两侧与后颈 5-10mm 贴剪",
+      "顶部 2-4cm 碎剪",
+      "微刘海轻轻扫向前额",
+      "发尾全部点剪出碎感"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "3-6 分钟",
+    "realisticFor": "中等发量直发、喜欢极短但不想剃光的女性；小脸型与清晰下颌线更出效果。",
+    "notIdealFor": "浓密自然卷发需要专业处理；细软发容易贴头皮，需要蓬松产品支撑。",
+    "stylistInstruction": "Micro pixie: close sides and nape at 5-10mm, top 2-4cm with point-cut texture, micro fringe of about 2-3cm brushed forward.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her mid 20s with natural black, medium-density straight hair in a micro pixie, close-cut sides, textured short top and a 2-3cm micro fringe brushing the forehead. Neutral solid beige background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape clearly. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same micro pixie, left profile showing the close-cut side, micro fringe and short textured crown, left ear and temple visible. Neutral solid beige background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same micro pixie, right profile showing the close-cut side, micro fringe and short textured crown, right ear and temple visible. Neutral solid beige background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-classic-pixie",
+    "genderFilter": "female",
+    "nameZh": "经典精灵短发",
+    "nameEn": "Classic Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "后颈短、耳侧贴、顶部约 5-7cm 向一侧梳起的经典精灵头廓。",
+    "keyCutFeatures": [
+      "后颈 1-2cm 贴剪",
+      "耳侧 2-3cm",
+      "顶部 5-7cm 自然垂向一侧",
+      "斜分侧刘海扫过眉骨"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量直发或微卷女性；希望保留女性化轮廓又想要短发的人。",
+    "notIdealFor": "极细软发难撑起顶部蓬度；浓密自然卷需要额外做去厚重处理。",
+    "stylistInstruction": "Classic pixie: short nape and close sides, top about 5-7cm brushed to one side, side-swept fringe ending above the brow, keep natural hairline.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her early 30s with natural dark-brown, medium-density wavy hair in a classic pixie, close sides, 5-7cm top swept to one side and a side-swept fringe above the brow. Neutral solid light-blue-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same classic pixie, left profile showing the short nape, close left side, top swept left and the side-swept fringe, left ear visible. Neutral solid light-blue-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same classic pixie, right profile showing the short nape, close right side, top swept left leaving the right temple open, right ear visible. Neutral solid light-blue-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-pixie",
+    "genderFilter": "female",
+    "nameZh": "长精灵短发",
+    "nameEn": "Long Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "side",
+    "silhouette": "后颈短、两侧稍长、顶部与前方延长到可触碰眉梢的长精灵廓，比经典版更柔。",
+    "keyCutFeatures": [
+      "后颈 2-3cm",
+      "耳侧 4-5cm 盖住耳上缘",
+      "顶部 8-10cm 向前向侧流动",
+      "前侧长斜刘海至眉梢"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等至浓密微卷发；从短发向中长发过渡期的女性。",
+    "notIdealFor": "极直极滑的发质难保持向前流动感；发质过度毛躁时顶部会散乱。",
+    "stylistInstruction": "Long pixie: nape 2-3cm, sides about 4-5cm reaching the top of the ear, top 8-10cm flowing forward with a long side fringe to the brow tip, soft layered ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her late 20s with natural medium-brown, medium-density wavy hair in a long pixie, short nape, longer sides touching the ear tops and a long side-swept fringe reaching the brow. Neutral solid warm-white background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same long pixie, left profile showing the short nape and the longer left side covering the top of the ear, long fringe sweeping forward, left ear visible. Neutral solid warm-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same long pixie, right profile showing the short nape and the longer right side, long fringe sweeping forward across the forehead, right ear visible. Neutral solid warm-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-textured-pixie",
+    "genderFilter": "female",
+    "nameZh": "纹理精灵短发",
+    "nameEn": "Textured Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "curly"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "textured",
+    "silhouette": "全头碎剪的蓬松短廓，卷度自然弹起，顶部呈起伏的卷曲块状。",
+    "keyCutFeatures": [
+      "点剪碎化减少厚重",
+      "保留自然卷度不拉直",
+      "两侧贴剪但顶部卷发蓬起",
+      "刘海以碎卷形式自然分布"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "8-15 分钟",
+    "realisticFor": "自然卷或紧密卷浓密发质的女性；想要保留卷度又缩短长度的人。",
+    "notIdealFor": "直发做此造型需要大量烫卷，成本高；非常细软的卷发蓬度不足。",
+    "stylistInstruction": "Textured curly pixie: point-cut to remove bulk, keep natural curl pattern, close sides, crown left longer so curls bounce up, no heat styling to flatten.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her mid 30s with natural dark-brown, thick curly hair in a textured pixie, point-cut curls forming a soft rounded crown, close sides and textured curls distributed across the forehead. Neutral solid sage-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same textured pixie, left profile showing the rounded crown of curls, close left side and nape, left ear visible. Neutral solid sage-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same textured pixie, right profile showing the rounded crown of curls, close right side and nape, right ear visible. Neutral solid sage-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-swept-bang-pixie",
+    "genderFilter": "female",
+    "nameZh": "斜刘海精灵短发",
+    "nameEn": "Pixie with Swept Bangs",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "短后颈与贴耳侧、顶部顺滑地连成长斜刘海扫过前额，廓形干净利落。",
+    "keyCutFeatures": [
+      "顶部整体斜向一侧形成连续长斜刘海",
+      "后颈与两侧短而干净",
+      "顶部表面顺滑少碎发",
+      "发尾单一切口或轻点剪"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-8 分钟",
+    "realisticFor": "中等发量顺滑直发或微卷；喜欢俐落斜线条、脸型偏圆的人。",
+    "notIdealFor": "自然卷发需要每次吹直，打理成本高；极细软发斜刘海容易塌。",
+    "stylistInstruction": "Pixie with a continuous swept fringe: short clean nape and sides, top combed diagonally into one long side-swept fringe that crosses the forehead, smooth surface, minimal layering on top.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a South Asian woman in her early 30s with natural black, medium-density wavy hair in a pixie with a long swept fringe, short clean nape and sides, top combed diagonally across the forehead. Neutral solid lavender-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same South Asian woman with the same swept-fringe pixie, left profile showing the short nape, clean left side and the fringe sweeping from right to left across the forehead, left ear visible. Neutral solid lavender-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same South Asian woman with the same swept-fringe pixie, right profile showing the short nape, clean right side and where the fringe begins at the right temple, right ear visible. Neutral solid lavender-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-undercut-pixie",
+    "genderFilter": "female",
+    "nameZh": "削边精灵短发",
+    "nameEn": "Undercut Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "从外部看是顶部较长的精灵头，掀开后可见耳后与后颈隐藏式剃短。",
+    "keyCutFeatures": [
+      "后颈与耳后 3-6mm 剃短形成隐藏下削",
+      "外罩层 4-6cm 覆盖",
+      "顶部 6-8cm 斜向一侧",
+      "外部轮廓与经典精灵相近"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "8-15 分钟",
+    "realisticFor": "中等发量直发、想要隐形个性元素的女性；下削区域发量少反而更利落。",
+    "notIdealFor": "需要经常扎发露出发型的场合会暴露下削；自然卷外罩层难服帖覆盖。",
+    "stylistInstruction": "Undercut pixie: shave the nape and behind the ears to 3-6mm while keeping an overlying layer of 4-6cm that covers the shaved area, top 6-8cm brushed to one side.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 20s with natural chestnut-brown, fine-to-medium straight hair in an undercut pixie, longer overlying layer hiding the shaved nape, top 6-8cm swept to one side with a side fringe. Neutral solid charcoal-tinted background, soft even lighting, camera at eye level, shows hairline, temples and ears. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same undercut pixie, left profile showing the longer overlying layer and a hint of the shaved section behind the left ear, left ear visible. Neutral solid charcoal-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same undercut pixie, right profile showing the longer overlying layer and a hint of the shaved section behind the right ear, right ear visible. Neutral solid charcoal-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-curly-pixie",
+    "genderFilter": "female",
+    "nameZh": "卷发精灵短发",
+    "nameEn": "Curly Pixie",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "curly"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "全头自然卷弹起的圆润短廓，两侧与后颈剪短、顶部卷发形成蓬圆顶。",
+    "keyCutFeatures": [
+      "沿卷度外缘剪出圆廓",
+      "后颈与两侧 2-3cm",
+      "顶部卷发留 5-8cm 自然弹起",
+      "不梳直、保留收缩后的真实长度"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-20 分钟",
+    "realisticFor": "浓密自然卷或紧密卷发女性；发量厚、希望大幅缩短但保留卷度的人。",
+    "notIdealFor": "直发女性需烫卷才能实现；卷度松散的细卷会失去圆廓。",
+    "stylistInstruction": "Curly pixie: cut following the natural curl shape with shears, close sides and nape, leave the crown curls 5-8cm so they bounce into a rounded silhouette, never razor-cut.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her early 20s with natural black, thick coily-to-curly hair in a curly pixie, curls forming a rounded crown, close sides and nape, no fringe. Neutral solid soft-blue background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same curly pixie, left profile showing the rounded crown of curls and close left side and nape, left ear visible. Neutral solid soft-blue background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same curly pixie, right profile showing the rounded crown of curls and close right side and nape, right ear visible. Neutral solid soft-blue background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-silver-pixie",
+    "genderFilter": "female",
+    "nameZh": "银灰精灵短发",
+    "nameEn": "Silver Pixie Crop",
+    "category": "Pixie 家族",
+    "length": "short",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "micro",
+    "silhouette": "贴头短廓、顶部碎短、微刘海，整体线条干净，银白自然灰发保持原色。",
+    "keyCutFeatures": [
+      "后颈与两侧 1-2cm 贴剪",
+      "顶部 3-5cm 碎剪",
+      "自然灰发不染、保留发际线原貌",
+      "灰发变粗处用点剪减轻厚重"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "3-6 分钟",
+    "realisticFor": "进入自然灰发过渡期的女性；灰白发质偏粗硬者反而更容易立住短廓。",
+    "notIdealFor": "想完全盖住灰发的用户需要染发，不符合本目录自然发色原则；头皮极敏感需谨慎。",
+    "stylistInstruction": "Silver pixie crop: close nape and sides, short textured top, micro fringe, keep the natural gray hair color, point-cut any wiry gray strands to reduce bulk.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 60s with natural silver-gray, fine straight hair in a silver pixie crop, close nape and sides, short textured top and a micro fringe, natural gray hair kept as-is. Neutral solid warm-white background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman in her early 60s with the same silver pixie crop, left profile showing the close left side, short nape and textured top, natural silver-gray hair, left ear visible. Neutral solid warm-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman in her early 60s with the same silver pixie crop, right profile showing the close right side, short nape and textured top, natural silver-gray hair, right ear visible. Neutral solid warm-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-bixie",
+    "genderFilter": "female",
+    "nameZh": "精灵鲍勃",
+    "nameEn": "Bixie",
+    "category": "Pixie-Bob 混合",
+    "length": "short",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "curtain",
+    "silhouette": "前侧长到下巴附近的 Bob 廓、后颈短成 Pixie，融合两者过渡自然。",
+    "keyCutFeatures": [
+      "后颈 2-4cm 短成 pixie",
+      "两侧延长至下巴与下颌线",
+      "帘式短刘海或斜刘海",
+      "中间层无硬线，靠点剪过渡"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、想从 Pixie 过渡到 Bob 或反之的女性；脸型圆润者两侧长度可修饰。",
+    "notIdealFor": "极细软发后颈短区容易塌贴；浓密粗硬发需要去厚重才能过渡自然。",
+    "stylistInstruction": "Bixie: short pixie nape and back, sides growing longer toward the jawline like a short bob, soft curtain or side fringe, blend the two lengths with point cutting, no hard line.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her late 20s with natural black, medium-density straight hair in a bixie, short pixie nape blending into jaw-length sides and a soft curtain fringe. Neutral solid ivory background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same bixie, left profile showing the short nape and the jaw-length left side, curtain fringe, left ear visible. Neutral solid ivory background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same bixie, right profile showing the short nape and the jaw-length right side, curtain fringe, right ear visible. Neutral solid ivory background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-french-crop",
+    "genderFilter": "female",
+    "nameZh": "法式短发",
+    "nameEn": "French Crop (Female)",
+    "category": "Crop / 短剪",
+    "length": "short",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "textured",
+    "silhouette": "顶部短碎、齐而厚的纹理刘海压在前额，两侧与后颈短收，前重后轻。",
+    "keyCutFeatures": [
+      "顶部 3-5cm 均匀碎剪",
+      "纹理刘海横切至眉上",
+      "两侧与后颈 1-2cm 贴剪",
+      "全头以剪刀点剪出自然碎感"
+    ],
+    "maintenance": "low",
+    "dailyStylingMinutes": "2-5 分钟",
+    "realisticFor": "中等发量直发或微卷、喜欢利落中性风格且刘海耐受度高的女性。",
+    "notIdealFor": "自然卷发质刘海会卷翘失形；极细软发刘海难保持厚度。",
+    "stylistInstruction": "French crop for a woman: 3-5cm uniformly textured top, a blunt-ish textured fringe cut just above the brows, short close sides and nape, all scissor work, no razor on the fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her mid 20s with natural medium-brown, medium-density wavy hair in a french crop, short textured top, textured fringe just above the brows, close sides and nape. Neutral solid mist-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and nape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same french crop, left profile showing the short close left side, textured top and the fringe line above the brows, left ear visible. Neutral solid mist-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same french crop, right profile showing the short close right side, textured top and the fringe line above the brows, right ear visible. Neutral solid mist-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-blunt-bob",
+    "genderFilter": "female",
+    "nameZh": "齐剪鲍勃",
+    "nameEn": "Blunt Bob",
+    "category": "Bob 家族",
+    "length": "short",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "下巴长度的直筒齐边，发尾一条直线，无层次，轮廓利落几何感。",
+    "keyCutFeatures": [
+      "等长齐剪至下巴",
+      "发尾单一切口无层次",
+      "内收自然包裹下颌",
+      "可配中分或轻微斜分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "细软至中等顺直发；发量适中、希望显发量厚实的女性。",
+    "notIdealFor": "浓密自然卷需大量拉直打理；极细软发若不造型容易贴脸。",
+    "stylistInstruction": "Blunt bob at jaw length: one-length cut with a single clean line, no layers, slight under-direction so the ends tuck under gently, natural parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural blonde, fine straight hair in a blunt bob at jaw length, one clean horizontal line at the ends, no layers, natural center parting. Neutral solid light-gray background, soft even lighting, camera at eye level, shows hairline, temples, ear area and the blunt ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same blunt bob, left profile showing the clean single-line ends at jaw level, no layers, left ear partly covered, nape hair falls straight. Neutral solid light-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same blunt bob, right profile showing the clean single-line ends at jaw level, no layers, right ear partly covered, nape hair falls straight. Neutral solid light-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-a-line-bob",
+    "genderFilter": "female",
+    "nameZh": "前长后短鲍勃",
+    "nameEn": "A-Line Bob",
+    "category": "Bob 家族",
+    "length": "short",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "从后颈向前逐渐变长的斜线 Bob，后短前长呈 A 字廓。",
+    "keyCutFeatures": [
+      "后颈 3-5cm 短于前侧",
+      "前侧延至下颌线下 2-3cm",
+      "单一角度斜切口",
+      "配斜分与侧刘海"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量直发或微卷；脸型偏圆或下颌柔和者，前长后短可拉长脸型。",
+    "notIdealFor": "极细软发后部会过于塌陷；自然卷发需要热造型才能保持角度。",
+    "stylistInstruction": "A-line bob: cut shorter at the nape around 3-5cm and longer in front reaching 2-3cm below the jawline, one continuous diagonal line, side parting with a light side-swept fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her late 20s with natural black, medium-density wavy hair in an a-line bob, shorter nape and longer front reaching below the jawline, one diagonal line, side parting with a side-swept fringe. Neutral solid warm-taupe background, soft even lighting, camera at eye level, shows hairline, temples, ears and the angled ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same a-line bob, left profile showing the shorter nape and the longer front piece, the diagonal line, left ear visible. Neutral solid warm-taupe background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same a-line bob, right profile showing the shorter nape and the longer front piece, the diagonal line, right ear visible. Neutral solid warm-taupe background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-inverted-bob",
+    "genderFilter": "female",
+    "nameZh": "倒置鲍勃",
+    "nameEn": "Inverted Bob",
+    "category": "Bob 家族",
+    "length": "short",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "后颈短而厚重堆叠、前侧长而薄的倒 V 廓，后部有明显堆积感。",
+    "keyCutFeatures": [
+      "后颈 2-4cm 堆积层次",
+      "前侧拉长至下颌线",
+      "后部厚重前部轻",
+      "内扣发尾包裹下颌"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "发量较厚、想要后部饱满感的女性；直发最能体现堆积轮廓。",
+    "notIdealFor": "细软发后部堆不起来；自然卷发需吹直才能看到堆积形状。",
+    "stylistInstruction": "Inverted bob: heavy graduated stacking at the nape around 2-4cm, front strands longer to the jawline, inner curl at the ends, more weight in the back than the front.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her early 30s with natural black, thick straight hair in an inverted bob, shorter stacked nape and longer front to the jawline, ends tucking under. Neutral solid pale-olive background, soft even lighting, camera at eye level, shows hairline, temples, ears and the stacked ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same inverted bob, left profile showing the stacked full nape and the longer front piece, left ear visible. Neutral solid pale-olive background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same inverted bob, right profile showing the stacked full nape and the longer front piece, right ear visible. Neutral solid pale-olive background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-asymmetrical-bob",
+    "genderFilter": "female",
+    "nameZh": "不对称鲍勃",
+    "nameEn": "Asymmetrical Bob",
+    "category": "Bob 家族",
+    "length": "short",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "一侧长至耳下或下颌、另一侧短至耳上，长短落差明显的不对称廓。",
+    "keyCutFeatures": [
+      "左右长度差 4-8cm",
+      "长侧覆盖耳、短侧露出耳",
+      "顶部向长侧斜梳",
+      "斜刘海强化不对称感"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等发量微卷或直发、敢于尝试个性廓形的女性；脸型偏圆者长短差可修饰。",
+    "notIdealFor": "头发处于半长不短的过渡期难以执行；自然卷需要每次热造型。",
+    "stylistInstruction": "Asymmetrical bob: one side cut to ear length, the other side 4-8cm longer to the jawline or below, top combed diagonally toward the longer side, add a side fringe to strengthen the asymmetry.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 30s with natural auburn, medium-density wavy hair in an asymmetrical bob, one side short above the ear, the other side long past the jawline, side fringe. Neutral solid deep-teal-toned background, soft even lighting, camera at eye level, shows hairline, temples, both ears and the length difference. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same asymmetrical bob, left profile showing the short-above-the-ear side, left ear fully visible, the long side falls on the right. Neutral solid deep-teal-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same asymmetrical bob, right profile showing the long side falling past the jawline, right ear partly covered, the short side is on the left. Neutral solid deep-teal-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-curly-bob",
+    "genderFilter": "female",
+    "nameZh": "卷发鲍勃",
+    "nameEn": "Curly Bob",
+    "category": "Bob 家族",
+    "length": "short",
+    "texture": [
+      "curly"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "curtain",
+    "silhouette": "卷发剪成圆润的鲍勃廓，卷度自然弹到下颌附近，整体饱满圆头型。",
+    "keyCutFeatures": [
+      "沿卷度外缘剪圆廓",
+      "前侧卷至下颌与下巴",
+      "帘式卷刘海自然分开",
+      "后颈贴卷不堆厚"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-20 分钟",
+    "realisticFor": "自然卷浓密发质女性；想要 Bob 廓又不想拉直的人。",
+    "notIdealFor": "细软稀疏卷发撑不起饱满廓；直发需烫卷。",
+    "stylistInstruction": "Curly bob: cut dry following the curl pattern, shape a rounded bob silhouette with the front curls at the jawline, curtain curls in front, keep the nape close, never brush out the curls.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her late 20s with natural dark-brown, thick curly hair in a curly bob, rounded silhouette, front curls reaching the jawline, curtain curls framing the forehead. Neutral solid soft-coral-toned background, soft even lighting, camera at eye level, shows hairline, temples, ears and the rounded curl outline. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same curly bob, left profile showing the rounded curl silhouette, front curl at jawline, left ear partly covered by curls. Neutral solid soft-coral-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same curly bob, right profile showing the rounded curl silhouette, front curl at jawline, right ear partly covered by curls. Neutral solid soft-coral-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-short-curly-crop",
+    "genderFilter": "female",
+    "nameZh": "短卷圆剪",
+    "nameEn": "Short Curly Crop",
+    "category": "Crop / 短剪",
+    "length": "short",
+    "texture": [
+      "coily"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "紧密卷整体收成贴近头皮的圆头廓，卷度收缩后呈饱满圆形，无刘海。",
+    "keyCutFeatures": [
+      "沿自然收缩卷度剪出贴头圆廓",
+      "全头均匀、无层次跳跃",
+      "保留原生紧密卷收缩",
+      "发际线外缘点剪"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "3-8 分钟",
+    "realisticFor": "紧密卷浓密发质女性；希望极短且好打理、自然干燥即可成型的人。",
+    "notIdealFor": "直发或松卷需烫卷；卷度松散者圆廓会散。",
+    "stylistInstruction": "Short curly crop: cut the coils close and even following the natural shrinkage, a uniform rounded head shape, no bangs, soften the hairline edges with point cutting, no heat styling.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her early 30s with natural black, thick coily hair in a short curly crop, close rounded head shape following the natural coil shrinkage, no bangs. Neutral solid stone-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and the rounded outline. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same short curly crop, left profile showing the close rounded coil silhouette and the natural hairline, left ear visible. Neutral solid stone-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same short curly crop, right profile showing the close rounded coil silhouette and the natural hairline, right ear visible. Neutral solid stone-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-textured-bob",
+    "genderFilter": "female",
+    "nameZh": "纹理鲍勃",
+    "nameEn": "Textured Bob",
+    "category": "Bob 家族",
+    "length": "medium",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "side",
+    "silhouette": "齐肩内的松散鲍勃，发尾碎剪出纹理感，整体轻盈不死板。",
+    "keyCutFeatures": [
+      "发尾碎剪去厚",
+      "少量内层层次增加动感",
+      "长度落在耳下至肩内",
+      "斜刘海或微帘式"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "发量偏厚需要去重的女性；自然直或微卷都适合，束发后线条自然。",
+    "notIdealFor": "极细软发碎剪后更显稀薄；极紧密卷发需先拉直才能看到纹理。",
+    "stylistInstruction": "Textured bob: cut between ear and shoulder length, point-cut the ends to remove bulk and create movement, add a few inner layers, light side fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her mid 20s with natural black, medium-density straight hair in a textured bob, ear-to-shoulder length, point-cut wispy ends, light inner layers and a soft side fringe. Neutral solid powder-blue background, soft even lighting, camera at eye level, shows hairline, temples, ears and the wispy ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same textured bob, left profile showing the point-cut ends at mid-neck, the inner layers, left ear partly covered. Neutral solid powder-blue background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same textured bob, right profile showing the point-cut ends at mid-neck, the inner layers, right ear partly covered. Neutral solid powder-blue background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-wavy-bob",
+    "genderFilter": "female",
+    "nameZh": "波浪鲍勃",
+    "nameEn": "Wavy Bob",
+    "category": "Bob 家族",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "至下颌与肩之间的自然波浪 Bob，S 形卷弧度松、廓形柔。",
+    "keyCutFeatures": [
+      "长度至耳下肩内",
+      "沿卷度剪出柔弧",
+      "少量长层保持波浪连贯",
+      "无刘海、自然分线"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "天然微卷或中等波浪发质；希望保留卷度、长度较短的女性。",
+    "notIdealFor": "极直发需每天卷发棒造型；卷度过紧的发质会缩成球，需要加长留量。",
+    "stylistInstruction": "Wavy bob: cut to between the ear and shoulder following the natural wave, a few long layers so the S-waves flow without bouncing too short, no fringe, natural parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her late 20s with natural medium-brown, medium-density wavy hair in a wavy bob, ear-to-shoulder length with loose S-waves, no fringe, natural parting. Neutral solid warm-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and the wave pattern. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same wavy bob, left profile showing the S-waves falling past the left ear, the wave pattern and soft ends, left ear partly covered. Neutral solid warm-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same wavy bob, right profile showing the S-waves falling past the right ear, the wave pattern and soft ends, right ear partly covered. Neutral solid warm-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-classic-lob",
+    "genderFilter": "female",
+    "nameZh": "经典长鲍勃",
+    "nameEn": "Classic Lob",
+    "category": "Lob 家族",
+    "length": "medium",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "长度落在锁骨与肩之间的基础长鲍勃，层次轻微、线条干净百搭。",
+    "keyCutFeatures": [
+      "长度至锁骨与肩之间",
+      "全头轻微长层",
+      "发尾微内收或微外翻",
+      "无刘海、自然分线"
+    ],
+    "maintenance": "low",
+    "dailyStylingMinutes": "3-6 分钟",
+    "realisticFor": "几乎所有发质；尤其适合第一次剪短、不确定方向的女性。",
+    "notIdealFor": "极紧密卷发需拉直或加长留量；要求零打理的发质仍需吹干。",
+    "stylistInstruction": "Classic lob: cut to between collarbone and shoulder, very light long layers only, clean ends, no fringe, let the natural parting fall freely.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural dark-blonde, fine straight hair in a classic lob at collarbone length, very light layers, clean ends, no fringe, natural parting. Neutral solid light-warm background, soft even lighting, camera at eye level, shows hairline, temples, ears and the clean ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same classic lob, left profile showing the collarbone-length ends, light layering, left ear visible, straight fall at the nape. Neutral solid light-warm background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same classic lob, right profile showing the collarbone-length ends, light layering, right ear visible, straight fall at the nape. Neutral solid light-warm background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-curtain-bang-lob",
+    "genderFilter": "female",
+    "nameZh": "法式刘海长鲍勃",
+    "nameEn": "Curtain Bangs Lob",
+    "category": "Lob 家族",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "curtain",
+    "silhouette": "锁骨长鲍勃搭配中分帘式刘海，刘海向两侧展开框住眉眼，整体柔和。",
+    "keyCutFeatures": [
+      "帘式刘海至颧骨或下颌",
+      "刘海与两侧长发自然衔接",
+      "长度至锁骨",
+      "少量层次保持刘海融入"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、额头偏宽或脸型偏圆想修饰的女性；微卷发最自然。",
+    "notIdealFor": "极细软发帘式刘海易分叉塌贴；自然卷过紧的刘海难形成帘状。",
+    "stylistInstruction": "Lob with curtain bangs: collarbone-length lob, curtain bangs cut to cheekbone or jawline blending into the sides, a few long layers so the bangs merge naturally.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a South Asian woman in her mid 20s with natural black, medium-density wavy hair in a curtain bangs lob, collarbone length, curtain bangs parting at the center and framing the cheekbones, soft layers. Neutral solid blush-tinted background, soft even lighting, camera at eye level, shows hairline, temples, ears and the curtain shape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same South Asian woman with the same curtain bangs lob, left profile showing the curtain fringe sweeping along the left cheek, collarbone-length ends, left ear visible. Neutral solid blush-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same South Asian woman with the same curtain bangs lob, right profile showing the curtain fringe sweeping along the right cheek, collarbone-length ends, right ear visible. Neutral solid blush-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-beach-waves-lob",
+    "genderFilter": "female",
+    "nameZh": "沙滩波浪长鲍勃",
+    "nameEn": "Beach Waves Lob",
+    "category": "Lob 家族",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "锁骨长鲍勃带有松散盐雾质感的不规则波浪，随性、发尾外翘自然。",
+    "keyCutFeatures": [
+      "长度至锁骨",
+      "均匀中等层次",
+      "卷度松散不规则、发尾外翻",
+      "哑光盐雾纹理、无刘海"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等至浓密发量；喜欢随性休闲感、能接受每日喷雾造型的女性。",
+    "notIdealFor": "极细软发波浪易消失；极紧密卷发做不出松弛沙滩感。",
+    "stylistInstruction": "Beach waves lob: collarbone length with medium layers, cut so the ends flip outward, style with salt spray into loose irregular waves, no fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Mixed-race woman in her late 20s with natural medium-brown, medium-density wavy hair in a beach waves lob, collarbone length, loose salt-textured waves with outward-flipping ends, no fringe. Neutral solid sand-toned background, soft even lighting, camera at eye level, shows hairline, temples, ears and the wave texture. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Mixed-race woman with the same beach waves lob, left profile showing the loose waves and outward-flipping ends, left ear visible, collarbone-length fall. Neutral solid sand-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Mixed-race woman with the same beach waves lob, right profile showing the loose waves and outward-flipping ends, right ear visible, collarbone-length fall. Neutral solid sand-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-blunt-lob",
+    "genderFilter": "female",
+    "nameZh": "齐剪长鲍勃",
+    "nameEn": "Blunt Lob",
+    "category": "Lob 家族",
+    "length": "medium",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "锁骨长度的齐边一字发尾，无层次、垂坠直落，轮廓干净有分量。",
+    "keyCutFeatures": [
+      "等长齐剪至锁骨",
+      "发尾一条平直线",
+      "无层次或极少内层",
+      "自然中分或微侧分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "细软至中等顺直发、想显发量厚实的女性；发尾齐整显质感。",
+    "notIdealFor": "自然卷需每次拉直；发量过厚齐剪会显呆板沉重。",
+    "stylistInstruction": "Blunt lob: one-length cut at collarbone with a single clean horizontal line, no layers, minimal inner curl at the ends, natural parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her early 30s with natural black, medium-density straight hair in a blunt lob, collarbone-length one-length cut with a clean straight end line, no layers. Neutral solid cool-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and the straight end line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same blunt lob, left profile showing the straight fall and the clean horizontal end line at collarbone, left ear visible. Neutral solid cool-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same blunt lob, right profile showing the straight fall and the clean horizontal end line at collarbone, right ear visible. Neutral solid cool-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-french-bob",
+    "genderFilter": "female",
+    "nameZh": "法式鲍勃",
+    "nameEn": "French Bob",
+    "category": "Bob 家族",
+    "length": "medium",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "blunt",
+    "silhouette": "短至下巴到耳下的齐整鲍勃，配厚齐眉刘海，复古而利落。",
+    "keyCutFeatures": [
+      "长度在耳下至下巴",
+      "全头齐剪无层次",
+      "厚齐眉刘海",
+      "发尾轻微内扣"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "细软至中等直发或微卷；五官立体、喜欢复古短廓的女性。",
+    "notIdealFor": "自然卷刘海难保持齐平；发量极厚齐剪易成蘑菇感。",
+    "stylistInstruction": "French bob: cut between ear lobe and chin, blunt one-length, full blunt fringe ending just above the brows, ends tucked slightly under.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her late 20s with natural light-auburn, fine wavy hair in a french bob, ear-to-chin blunt length with a full blunt fringe just above the brows, ends slightly tucked under. Neutral solid off-white background, soft even lighting, camera at eye level, shows hairline, temples, ears and the blunt fringe line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same french bob, left profile showing the blunt ends at ear-to-chin level, the full fringe, left ear visible. Neutral solid off-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same french bob, right profile showing the blunt ends at ear-to-chin level, the full fringe, right ear visible. Neutral solid off-white background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-shag",
+    "genderFilter": "female",
+    "nameZh": "乱发",
+    "nameEn": "Shag",
+    "category": "Shag / 乱发",
+    "length": "medium",
+    "texture": [
+      "wavy",
+      "curly"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "textured",
+    "silhouette": "全头多层短碎、层次落差大的蓬松乱发廓，发尾碎而外翘。",
+    "keyCutFeatures": [
+      "顶部短层与底部长度落差大",
+      "发尾点剪碎化",
+      "碎刘海不规则分布",
+      "整体去重、层次贯穿全头"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等至浓密发量；喜欢蓬松随性、纹理感强的女性。",
+    "notIdealFor": "极细软发层次会显稀薄；需要整齐职业感的人不适合。",
+    "stylistInstruction": "Shag: cut strong layers from the crown down with big length differences, point-cut the ends to feather them, add a textured piecey fringe, remove weight throughout.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 30s with natural medium-brown, medium-density wavy hair in a shag, strong crown layers, feathered point-cut ends, piecey textured fringe. Neutral solid muted-yellow-tinted background, soft even lighting, camera at eye level, shows hairline, temples, ears and the layered ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same shag, left profile showing the strong layered crown, feathered ends and the short pieces around the left ear. Neutral solid muted-yellow-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same shag, right profile showing the strong layered crown, feathered ends and the short pieces around the right ear. Neutral solid muted-yellow-tinted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-wolf-cut",
+    "genderFilter": "female",
+    "nameZh": "狼剪",
+    "nameEn": "Wolf Cut (Female)",
+    "category": "Wolf Cut",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "textured",
+    "silhouette": "顶部短而蓬、两侧蓬起、底部保留较长尾巴，介于乱发与鲻鱼头之间。",
+    "keyCutFeatures": [
+      "顶部与刘海短层强烈",
+      "两侧耳上蓬起外翻",
+      "后下留 5-10cm 长尾",
+      "层次落差大、发尾碎"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-20 分钟",
+    "realisticFor": "中等至浓密微卷发；想要个性且层次感强的年轻女性。",
+    "notIdealFor": "极细软发顶蓬不起；极紧密卷发层次会失控，需要专业剪裁。",
+    "stylistInstruction": "Wolf cut: short strong layers at the crown and fringe, the sides flipped out at ear level, keep a longer tail of 5-10cm at the back, heavily textured ends throughout.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her early 20s with natural dark-brown, medium-density wavy hair in a wolf cut, short layered crown, flipped-out sides at ear level, long tail at the back, textured fringe. Neutral solid dusty-rose background, soft even lighting, camera at eye level, shows hairline, temples, ears and the layered volume. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same wolf cut, left profile showing the short layered crown, the flipped-out left side and the longer tail at the back. Neutral solid dusty-rose background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same wolf cut, right profile showing the short layered crown, the flipped-out right side and the longer tail at the back. Neutral solid dusty-rose background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-butterfly-cut",
+    "genderFilter": "female",
+    "nameZh": "蝴蝶剪",
+    "nameEn": "Butterfly Cut",
+    "category": "蝴蝶剪",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "curtain",
+    "silhouette": "面部两侧短层像蝴蝶翅膀向外展开，下层保持长发量，短层与长层分明。",
+    "keyCutFeatures": [
+      "面部框短层至颧骨或下巴",
+      "短层明显外翻展开",
+      "下层长至锁骨或更长",
+      "帘式分界自然过渡"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-20 分钟",
+    "realisticFor": "中等发量微卷；想要长发感又有脸部层次、喜欢浪漫感的女性。",
+    "notIdealFor": "极细软发短层会塌；极紧密卷发短层与长层界限混乱。",
+    "stylistInstruction": "Butterfly cut: cut short face-framing layers at cheekbone-to-jaw that flip outward like wings, keep the underlayers long to the collarbone or below, blend with a curtain-style division.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 20s with natural blonde, medium-density wavy hair in a butterfly cut, short face-framing layers flipping outward, long underlayers below the shoulders, curtain division. Neutral solid soft-mint background, soft even lighting, camera at eye level, shows hairline, temples, ears and the short-long layer contrast. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same butterfly cut, left profile showing the short flipped-out layer near the left cheek and the long underlayers falling behind. Neutral solid soft-mint background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same butterfly cut, right profile showing the short flipped-out layer near the right cheek and the long underlayers falling behind. Neutral solid soft-mint background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-modern-mullet",
+    "genderFilter": "female",
+    "nameZh": "现代鲻鱼头",
+    "nameEn": "Modern Mullet (Female)",
+    "category": "鲻鱼头",
+    "length": "medium",
+    "texture": [
+      "curly",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "textured",
+    "silhouette": "前顶短、两侧短、后部留长尾巴的复古前卫廓，女性版更柔化。",
+    "keyCutFeatures": [
+      "前顶与刘海短碎",
+      "耳侧剪短",
+      "后颈至肩部留长尾",
+      "全头层次与碎发"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-20 分钟",
+    "realisticFor": "中等至浓密发量、敢尝试个性造型的女性；卷发做出来更有体积。",
+    "notIdealFor": "职场保守着装环境可能不适配；极细软发长尾显稀。",
+    "stylistInstruction": "Modern mullet: short textured top and fringe, sides cut close to the ears, keep a longer tail from the nape to the shoulders, blend with feathered layers.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her early 20s with natural black, thick curly hair in a modern mullet, short textured top and fringe, close sides, long curly tail at the back. Neutral solid charcoal-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and the long back tail. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same modern mullet, left profile showing the short top, close left side and the long curly tail extending from the nape, left ear visible. Neutral solid charcoal-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same modern mullet, right profile showing the short top, close right side and the long curly tail extending from the nape, right ear visible. Neutral solid charcoal-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-shoulder-layers",
+    "genderFilter": "female",
+    "nameZh": "齐肩层次",
+    "nameEn": "Shoulder-Length Layers",
+    "category": "层次剪",
+    "length": "medium",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "长度正好落在肩线的多层齐肩发，层次均匀、发尾自然内卷。",
+    "keyCutFeatures": [
+      "长度切在肩线",
+      "全头均匀中短层次",
+      "发尾内扣",
+      "无刘海或极轻侧分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量直发；长度恰好到肩、希望有轻微动感的女性。",
+    "notIdealFor": "自然卷在肩线处易外翘；极细软发层次感弱。",
+    "stylistInstruction": "Shoulder-length layers: cut to sit exactly on the shoulder line, uniform medium layers throughout, ends turned under, no fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her late 20s with natural black, medium-density straight hair in shoulder-length layers, ends resting on the shoulder line, uniform layers, ends turned under, no fringe. Neutral solid pale-pink background, soft even lighting, camera at eye level, shows hairline, temples, ears and the layered ends. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same shoulder-length layers, left profile showing the layered fall and the ends turning under at the shoulder, left ear visible. Neutral solid pale-pink background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same shoulder-length layers, right profile showing the layered fall and the ends turning under at the shoulder, right ear visible. Neutral solid pale-pink background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-collarbone-blunt",
+    "genderFilter": "female",
+    "nameZh": "锁骨齐剪",
+    "nameEn": "Collarbone Blunt Cut",
+    "category": "层次剪",
+    "length": "medium",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "发尾正好落在锁骨的齐剪直线，垂坠感强、干净利落。",
+    "keyCutFeatures": [
+      "等长齐剪至锁骨",
+      "发尾一字平线",
+      "无层次",
+      "自然中分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "细软至中等直发；喜欢清爽垂坠、长度在肩下的女性。",
+    "notIdealFor": "发量极厚齐剪显重；自然卷需要拉直。",
+    "stylistInstruction": "Collarbone blunt cut: one-length cut with the ends landing exactly on the collarbone, single clean line, no layers, center parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural light-brown, fine straight hair in a collarbone blunt cut, one-length ends landing on the collarbone, single clean line, no layers, center parting. Neutral solid light-lavender background, soft even lighting, camera at eye level, shows hairline, temples, ears and the clean end line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same collarbone blunt cut, left profile showing the straight fall and the clean end line at the collarbone, left ear visible. Neutral solid light-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same collarbone blunt cut, right profile showing the straight fall and the clean end line at the collarbone, right ear visible. Neutral solid light-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-u-shape-cut",
+    "genderFilter": "female",
+    "nameZh": "U形层次",
+    "nameEn": "U-Shape Cut",
+    "category": "层次剪",
+    "length": "medium",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "后部发尾呈圆弧 U 形、前侧略短，整体柔和圆润，无内部硬层。",
+    "keyCutFeatures": [
+      "后部 U 形圆弧收尾",
+      "前侧比后侧短 3-5cm",
+      "无内层或极轻",
+      "发尾顺滑圆收"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、喜欢柔和的圆润长廓又不想要明显层次的女性。",
+    "notIdealFor": "极细软发 U 形会显薄；极紧密卷发轮廓难保持。",
+    "stylistInstruction": "U-shape cut: cut the back into a soft U-shaped curve, front slightly shorter than the back, no inner layers, smooth rounded ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her mid 30s with natural black, medium-density wavy hair in a u-shape cut, soft U-shaped rounded ends, front slightly shorter, smooth no-layer fall. Neutral solid warm-sand background, soft even lighting, camera at eye level, shows hairline, temples, ears and the rounded end curve. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same u-shape cut, left profile showing the U-curved back ends and the slightly shorter front, left ear visible. Neutral solid warm-sand background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same u-shape cut, right profile showing the U-curved back ends and the slightly shorter front, right ear visible. Neutral solid warm-sand background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-v-shape-cut",
+    "genderFilter": "female",
+    "nameZh": "V形层次",
+    "nameEn": "V-Shape Cut",
+    "category": "层次剪",
+    "length": "medium",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "后部发尾收成尖 V 形，前侧渐短，廓形有锐利感。",
+    "keyCutFeatures": [
+      "后部 V 形尖角收尾",
+      "前侧短于后侧",
+      "无内层或极轻",
+      "发尾尖收"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等至浓密发量、后部发量足的女性；V 形让背部线条利落。",
+    "notIdealFor": "发量稀薄者 V 尖会明显变细；极紧密卷发尖角不可见。",
+    "stylistInstruction": "V-shape cut: cut the back into a sharp V point, front shorter than the back, no inner layers, pointed ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her late 20s with natural medium-brown, medium-density straight hair in a v-shape cut, sharp V-pointed back ends, front shorter, smooth fall. Neutral solid warm-terracotta background, soft even lighting, camera at eye level, shows hairline, temples, ears and the pointed end line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same v-shape cut, left profile showing the sharp V point at the back and the shorter front, left ear visible. Neutral solid warm-terracotta background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same v-shape cut, right profile showing the sharp V point at the back and the shorter front, right ear visible. Neutral solid warm-terracotta background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-round-layers",
+    "genderFilter": "female",
+    "nameZh": "圆形层次",
+    "nameEn": "Round Layers",
+    "category": "层次剪",
+    "length": "medium",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "curtain",
+    "silhouette": "全头层次形成内扣圆弧、长度至肩下的蓬松圆廓，复古柔美。",
+    "keyCutFeatures": [
+      "内层短于外层形成内扣弧",
+      "长度至肩下",
+      "层次贯穿全头",
+      "帘式或大旁分刘海"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等至浓密微卷发；喜欢饱满圆润、复古感廓形的女性。",
+    "notIdealFor": "极细软发圆弧撑不起来；极直硬发内扣需要每天吹卷。",
+    "stylistInstruction": "Round layers: cut internal layers shorter than the outer layer so the hair curves inward, length to just below the shoulders, curtain or deep side fringe, full rounded silhouette.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 30s with natural chestnut-brown, medium-density wavy hair in round layers, internal layers curving inward into a full rounded shape, length below the shoulders, curtain fringe. Neutral solid honey-toned background, soft even lighting, camera at eye level, shows hairline, temples, ears and the rounded inward curve. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same round layers, left profile showing the inward-curving layers and the full rounded fall, left ear visible. Neutral solid honey-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same round layers, right profile showing the inward-curving layers and the full rounded fall, right ear visible. Neutral solid honey-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-curly-shag",
+    "genderFilter": "female",
+    "nameZh": "卷发乱发",
+    "nameEn": "Curly Shag",
+    "category": "Shag / 乱发",
+    "length": "medium",
+    "texture": [
+      "curly"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "textured",
+    "silhouette": "卷发上做大量短层，卷度蓬起成饱满圆廓，层次给卷发增加体积与动感。",
+    "keyCutFeatures": [
+      "干剪保留卷度",
+      "大量点剪去重",
+      "短层集中在冠部",
+      "卷刘海不规则分布"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "15-25 分钟",
+    "realisticFor": "浓密自然卷女性；卷发厚重需要去薄、想要蓬松体积的人。",
+    "notIdealFor": "细软松卷层次易散；直发需烫卷。",
+    "stylistInstruction": "Curly shag: cut dry on natural curls, heavy point cutting to remove bulk, short layers at the crown, textured curly fringe, do not thin with a razor.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her late 20s with natural dark-brown, thick curly hair in a curly shag, heavy crown layers, voluminous rounded curl shape, textured curly fringe. Neutral solid warm-olive background, soft even lighting, camera at eye level, shows hairline, temples, ears and the curl volume. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same curly shag, left profile showing the layered crown volume and the rounded curl fall, left ear partly covered by curls. Neutral solid warm-olive background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same curly shag, right profile showing the layered crown volume and the rounded curl fall, right ear partly covered by curls. Neutral solid warm-olive background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-coily-tapered",
+    "genderFilter": "female",
+    "nameZh": "紧密卷渐变",
+    "nameEn": "Coily Tapered Crop",
+    "category": "Crop / 短剪",
+    "length": "medium",
+    "texture": [
+      "coily"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "侧后沿边缘渐收、顶部紧密卷蓬起的过渡廓，卷度饱满但边界干净。",
+    "keyCutFeatures": [
+      "边缘渐收短、顶部留卷",
+      "沿卷度干剪",
+      "顶部比侧后长 4-7cm",
+      "发际线外缘点剪"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "紧密卷浓密发质女性；想要卷度保留又整洁利落的人。",
+    "notIdealFor": "松卷或直发无法成型；卷度极细者需更长顶部。",
+    "stylistInstruction": "Coily tapered crop: taper the sides and nape shorter while keeping the crown coils longer by 4-7cm, dry cut along the coil pattern, clean edges at the hairline.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her early 30s with natural black, thick coily hair in a coily tapered crop, shorter tapered sides and nape, longer coils forming a rounded crown, clean hairline edges. Neutral solid cool-slate background, soft even lighting, camera at eye level, shows hairline, temples, ears and the tapered edge. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same coily tapered crop, left profile showing the tapered short left side and the taller rounded crown of coils, left ear visible. Neutral solid cool-slate background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same coily tapered crop, right profile showing the tapered short right side and the taller rounded crown of coils, right ear visible. Neutral solid cool-slate background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-layered",
+    "genderFilter": "female",
+    "nameZh": "长层次",
+    "nameEn": "Long Layered Cut",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "及胸至背的长发配从下巴开始的长层，层次过渡流畅、发量分布均匀。",
+    "keyCutFeatures": [
+      "层次从下巴往下逐渐加深",
+      "长度及胸至背",
+      "发尾轻碎",
+      "无刘海或极轻侧分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、想保留长发长度但去掉厚重感的女性；微卷最自然。",
+    "notIdealFor": "极细软发长层显薄；极紧密卷发层次收缩会变短。",
+    "stylistInstruction": "Long layered cut: long layers starting around chin level deepening toward the ends, length to the chest or below, lightly texturized ends, no fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her late 20s with natural medium-brown, medium-density wavy hair in a long layered cut, chest-length hair with long layers from the chin down, lightly textured ends, no fringe. Neutral solid cream background, soft even lighting, camera at eye level, shows hairline, temples, ears and the flowing layers. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same long layered cut, left profile showing the long layers flowing down and the wavy textured ends, left ear visible. Neutral solid cream background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same long layered cut, right profile showing the long layers flowing down and the wavy textured ends, right ear visible. Neutral solid cream background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-blunt",
+    "genderFilter": "female",
+    "nameZh": "长齐剪",
+    "nameEn": "Long Blunt Cut",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "及胸至腰的一字齐长发，发尾一条平线、垂坠厚重有质感。",
+    "keyCutFeatures": [
+      "等长齐剪至胸部以下",
+      "发尾单一平线",
+      "无层次",
+      "自然中分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "发量中等偏厚、发质顺直的女性；齐剪显发量、显高级感。",
+    "notIdealFor": "自然卷需每次拉直；发量稀薄者齐剪显薄。",
+    "stylistInstruction": "Long blunt cut: one-length cut to below the chest, a single clean horizontal line at the ends, no layers, center parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her mid 20s with natural black, thick straight hair in a long blunt cut, one-length hair below the chest with a clean single end line, no layers, center parting. Neutral solid pearl-gray background, soft even lighting, camera at eye level, shows hairline, temples, ears and the heavy straight fall. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same long blunt cut, left profile showing the straight heavy fall and the clean single end line, left ear visible. Neutral solid pearl-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same long blunt cut, right profile showing the straight heavy fall and the clean single end line, right ear visible. Neutral solid pearl-gray background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-curtain-bangs",
+    "genderFilter": "female",
+    "nameZh": "长帘刘海",
+    "nameEn": "Long Curtain Bangs",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "curtain",
+    "silhouette": "长发配中分帘式长刘海，刘海延至颧骨下颌、与两侧发自然融合。",
+    "keyCutFeatures": [
+      "帘式刘海至颧骨或下颌",
+      "刘海与两侧长层衔接",
+      "长度及胸",
+      "少量长层"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、额头偏宽想修饰的女性；微卷让帘式刘海更自然。",
+    "notIdealFor": "极细软发刘海贴脸；极紧密卷发刘海难成帘状。",
+    "stylistInstruction": "Long curtain bangs: curtain bangs cut to the cheekbones or jawline blending into long side layers, overall length to the chest, a few long layers only.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her early 30s with natural dark-brown, medium-density wavy hair in long curtain bangs, chest-length hair, curtain bangs framing the cheekbones, long layers blending in. Neutral solid warm-blush background, soft even lighting, camera at eye level, shows hairline, temples, ears and the curtain shape. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same long curtain bangs, left profile showing the curtain piece sweeping along the left cheek and the long layers behind, left ear visible. Neutral solid warm-blush background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same long curtain bangs, right profile showing the curtain piece sweeping along the right cheek and the long layers behind, right ear visible. Neutral solid warm-blush background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-shag",
+    "genderFilter": "female",
+    "nameZh": "长乱发",
+    "nameEn": "Long Shag",
+    "category": "Shag / 乱发",
+    "length": "long",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "curtain",
+    "silhouette": "长发版乱发：冠部短层强、发尾碎而长，层次落差大、整体蓬松。",
+    "keyCutFeatures": [
+      "冠部与面部短层",
+      "长度保留至胸下",
+      "发尾碎剪",
+      "帘式碎刘海"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等至浓密微卷发；想保留长发又想要层次动感的女性。",
+    "notIdealFor": "极细软发显薄；极紧密卷发层次收缩难控。",
+    "stylistInstruction": "Long shag: strong short layers at the crown and around the face, keep the overall length to below the chest, heavily textured feathered ends, curtain-style piecey fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her mid 30s with natural blonde, medium-density wavy hair in a long shag, strong crown layers, chest-length feathered ends, curtain piecey fringe. Neutral solid muted-gold background, soft even lighting, camera at eye level, shows hairline, temples, ears and the layered texture. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same long shag, left profile showing the layered crown and the feathered ends falling below the chest, left ear visible. Neutral solid muted-gold background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same long shag, right profile showing the layered crown and the feathered ends falling below the chest, right ear visible. Neutral solid muted-gold background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-face-framing-layers",
+    "genderFilter": "female",
+    "nameZh": "面部框层次",
+    "nameEn": "Face-Framing Layers",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "长发主体几乎无层，仅面部两侧有框脸短层，前短后长的柔和层次。",
+    "keyCutFeatures": [
+      "仅面部两侧 5-10cm 短层",
+      "其余保持长发量",
+      "短层逐渐融入长发",
+      "轻斜分"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "3-8 分钟",
+    "realisticFor": "细软至中等发量、想留长发又修饰脸型的女性；几乎零打理风险。",
+    "notIdealFor": "想要明显层次感的人不合适；极紧密卷发短层收缩明显。",
+    "stylistInstruction": "Face-framing layers: cut only the front two sections into soft layers from cheekbone to shoulder blending into the long rest, keep the back one-length, light diagonal parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a South Asian woman in her late 20s with natural black, medium-density wavy hair with face-framing layers, long back hair, soft shorter layers framing the cheekbones blending into the long rest. Neutral solid soft-terracotta background, soft even lighting, camera at eye level, shows hairline, temples, ears and the face-framing pieces. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same South Asian woman with the same face-framing layers, left profile showing the shorter front piece near the left cheek and the long back hair, left ear visible. Neutral solid soft-terracotta background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same South Asian woman with the same face-framing layers, right profile showing the shorter front piece near the right cheek and the long back hair, right ear visible. Neutral solid soft-terracotta background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-beach-waves",
+    "genderFilter": "female",
+    "nameZh": "长沙滩波浪",
+    "nameEn": "Long Beach Waves",
+    "category": "长波浪",
+    "length": "long",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "及胸长发带松散不规则盐雾波浪，弧度随意、发尾轻盈外翘。",
+    "keyCutFeatures": [
+      "长度及胸或更长",
+      "均匀中等层次",
+      "波浪松散不规则",
+      "盐雾哑光质感"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "10-15 分钟",
+    "realisticFor": "中等发量、喜欢随性休闲造型的女性；自然微卷打底最省事。",
+    "notIdealFor": "极细软发波浪易散；极紧密卷发需拉直再造型。",
+    "stylistInstruction": "Long beach waves: length to the chest or below with medium layers, style with salt spray into loose irregular waves with flipping ends, no fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her late 20s with natural medium-brown, medium-density wavy hair in long beach waves, chest-length loose salt-textured waves, airy flipping ends, no fringe. Neutral solid sandy-beige background, soft even lighting, camera at eye level, shows hairline, temples, ears and the wave texture. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same long beach waves, left profile showing the loose waves and airy ends falling past the chest, left ear visible. Neutral solid sandy-beige background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same long beach waves, right profile showing the loose waves and airy ends falling past the chest, right ear visible. Neutral solid sandy-beige background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-hollywood-waves",
+    "genderFilter": "female",
+    "nameZh": "好莱坞波浪",
+    "nameEn": "Hollywood Waves",
+    "category": "长波浪",
+    "length": "long",
+    "texture": [
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "side",
+    "silhouette": "深 S 型光泽大波浪、整齐有型，发丝油亮贴合，复古红毯感。",
+    "keyCutFeatures": [
+      "连续深 S 大卷",
+      "发丝整齐光泽",
+      "斜分强化波浪走向",
+      "长度及胸或更长"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "15-25 分钟",
+    "realisticFor": "中等至浓密发质、能接受热造型与定型产品的女性；出席正式场合需求。",
+    "notIdealFor": "极细软发波浪易塌；日常零打理习惯者维护成本高。",
+    "stylistInstruction": "Hollywood waves: keep the hair long with minimal layers, create continuous deep S-shaped waves with a curling iron, brush into glossy uniform waves, deep side parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural auburn, medium-density wavy hair in hollywood waves, chest-length glossy deep S-shaped waves, uniform brushed wave pattern, deep side parting. Neutral solid champagne-toned background, soft even lighting, camera at eye level, shows hairline, temples, ears and the glossy wave line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same hollywood waves, left profile showing the continuous deep S-waves and glossy finish, left ear visible. Neutral solid champagne-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same hollywood waves, right profile showing the continuous deep S-waves and glossy finish, right ear visible. Neutral solid champagne-toned background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-curls",
+    "genderFilter": "female",
+    "nameZh": "长螺旋卷",
+    "nameEn": "Long Curls",
+    "category": "长卷发",
+    "length": "long",
+    "texture": [
+      "curly"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "curtain",
+    "silhouette": "及胸或更长的均匀螺旋卷，卷度饱满弹跳，整体圆润有弹性。",
+    "keyCutFeatures": [
+      "干剪沿卷度",
+      "少量层去重不破坏卷形",
+      "长度及胸",
+      "卷帘刘海或自然卷分界"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "15-25 分钟",
+    "realisticFor": "天然卷发女性；想要长发卷且卷度均匀的人。",
+    "notIdealFor": "直发需烫卷；卷度松散者易变毛。",
+    "stylistInstruction": "Long curls: dry cut following the natural curl pattern, minimal layers just to remove weight, keep the length to the chest, leave the curls intact with a curl-defining product.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her late 20s with natural dark-brown, thick curly hair in long curls, chest-length uniform spiral curls, bouncy rounded shape, curly curtain pieces at the front. Neutral solid deep-mauve background, soft even lighting, camera at eye level, shows hairline, temples, ears and the spiral curl pattern. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same long curls, left profile showing the spiral curls falling to the chest, bouncy rounded outline, left ear partly covered. Neutral solid deep-mauve background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same long curls, right profile showing the spiral curls falling to the chest, bouncy rounded outline, right ear partly covered. Neutral solid deep-mauve background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-coils",
+    "genderFilter": "female",
+    "nameZh": "长紧密卷",
+    "nameEn": "Long Coils",
+    "category": "长卷发",
+    "length": "long",
+    "texture": [
+      "coily"
+    ],
+    "densityFit": [
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "长发紧密卷蓬起成饱满的大圆廓，收缩后仍有明显长度，整体如云朵。",
+    "keyCutFeatures": [
+      "干剪沿卷度",
+      "全头均匀、少层",
+      "长度在拉伸前及胸、收缩后及肩",
+      "无刘海或自然分界"
+    ],
+    "maintenance": "high",
+    "dailyStylingMinutes": "20-30 分钟",
+    "realisticFor": "紧密卷浓密发质女性；喜欢饱满体积与自然长度的人。",
+    "notIdealFor": "松卷或直发无法成型；卷度极细者需要专业护理。",
+    "stylistInstruction": "Long coils: dry cut along the natural coil pattern, even throughout with minimal layers, keep the stretched length to the chest so the shrunken coils rest at the shoulders, no fringe.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Black woman in her early 20s with natural black, thick coily hair in long coils, voluminous rounded cloud shape, coils resting at the shoulders after shrinkage, natural part. Neutral solid terracotta-muted background, soft even lighting, camera at eye level, shows hairline, temples, ears and the coil volume. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Black woman with the same long coils, left profile showing the rounded coil volume and the shoulder-level fall, left ear partly covered. Neutral solid terracotta-muted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Black woman with the same long coils, right profile showing the rounded coil volume and the shoulder-level fall, right ear partly covered. Neutral solid terracotta-muted background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-one-length-straight",
+    "genderFilter": "female",
+    "nameZh": "等长直发",
+    "nameEn": "One-Length Straight",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "完全等长的垂坠直发，从头顶到发尾无层次、几何感强。",
+    "keyCutFeatures": [
+      "全头单一长度",
+      "发尾干净齐平",
+      "零层次",
+      "自然中分"
+    ],
+    "maintenance": "low",
+    "dailyStylingMinutes": "3-6 分钟",
+    "realisticFor": "细软至中等顺直发、追求极简几何感的女性；几乎免打理。",
+    "notIdealFor": "自然卷需大量拉直；发量极厚者显得沉重。",
+    "stylistInstruction": "One-length straight: cut the whole head to a single length with a clean line, zero layers, center parting, no texturizing.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her early 30s with natural black, fine-to-medium straight hair in one-length straight hair, uniform single length to the chest, clean geometric line, zero layers, center parting. Neutral solid light-porcelain background, soft even lighting, camera at eye level, shows hairline, temples, ears and the straight fall. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same one-length straight hair, left profile showing the straight geometric fall and the single clean line at the ends, left ear visible. Neutral solid light-porcelain background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same one-length straight hair, right profile showing the straight geometric fall and the single clean line at the ends, right ear visible. Neutral solid light-porcelain background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-v-cut",
+    "genderFilter": "female",
+    "nameZh": "长V形",
+    "nameEn": "Long V-Cut",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium",
+      "thick"
+    ],
+    "bangs": "none",
+    "silhouette": "长发后部收成尖 V 尾、前侧渐短，背部线条锐利清爽。",
+    "keyCutFeatures": [
+      "后部 V 形尖角",
+      "前侧短于后侧",
+      "无内层或极轻",
+      "长度及胸下"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "后部发量足、想要利落背部线条的女性；直发最能体现 V 尖。",
+    "notIdealFor": "发量稀薄者 V 尖过细；极紧密卷发尖角不可见。",
+    "stylistInstruction": "Long V-cut: cut the back into a sharp V point reaching below the chest, front shorter, no inner layers, pointed clean ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a Latina woman in her mid 20s with natural medium-brown, medium-density straight hair in a long v-cut, sharp V-pointed back ends below the chest, front shorter, smooth pointed fall. Neutral solid cool-lilac background, soft even lighting, camera at eye level, shows hairline, temples, ears and the pointed V line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same Latina woman with the same long v-cut, left profile showing the sharp V point at the back and the shorter front, left ear visible. Neutral solid cool-lilac background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same Latina woman with the same long v-cut, right profile showing the sharp V point at the back and the shorter front, right ear visible. Neutral solid cool-lilac background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-u-cut",
+    "genderFilter": "female",
+    "nameZh": "长U形",
+    "nameEn": "Long U-Cut",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "none",
+    "silhouette": "长发后部收成柔和 U 弧、前侧渐短，背部线条圆润温和。",
+    "keyCutFeatures": [
+      "后部 U 形圆弧",
+      "前侧短于后侧",
+      "无内层或极轻",
+      "长度及胸下"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、想要圆润背部线条的女性；比 V 形更温和。",
+    "notIdealFor": "发量极厚 U 形显笨重；极紧密卷发轮廓难保持。",
+    "stylistInstruction": "Long U-cut: cut the back into a soft U-shaped curve below the chest, front shorter, no inner layers, smooth rounded ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 30s with natural light-brown, medium-density wavy hair in a long u-cut, soft U-curved back ends below the chest, front shorter, smooth rounded fall. Neutral solid mist-lavender background, soft even lighting, camera at eye level, shows hairline, temples, ears and the rounded U line. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman with the same long u-cut, left profile showing the soft U curve at the back and the shorter front, left ear visible. Neutral solid mist-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman with the same long u-cut, right profile showing the soft U curve at the back and the shorter front, right ear visible. Neutral solid mist-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-silver-long-layers",
+    "genderFilter": "female",
+    "nameZh": "银灰长层",
+    "nameEn": "Silver Long Layers",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "fine",
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "自然银灰长发配柔和长层，层次少而顺、保留灰发的垂坠与光泽。",
+    "keyCutFeatures": [
+      "少量长层减少对灰发的过度削薄",
+      "长度及胸",
+      "发尾轻碎",
+      "侧分自然落灰"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "自然灰发过渡期、发量细软到中等的女性；灰发变粗处点剪即可。",
+    "notIdealFor": "想完全盖住灰发者需染发，不符合本目录自然发色原则。",
+    "stylistInstruction": "Silver long layers: keep the natural gray-silver color, cut only a few soft long layers to the chest, point-cut any wiry gray ends lightly, deep side parting.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of a White woman in her early 60s with natural silver-gray, fine straight hair in silver long layers, chest-length soft long layers, natural gray kept as-is, lightly texturized ends, deep side parting. Neutral solid warm-pearl background, soft even lighting, camera at eye level, shows hairline, temples, ears and the soft layer flow. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same White woman in her early 60s with the same silver long layers, left profile showing the soft long layers and natural silver-gray fall, left ear visible. Neutral solid warm-pearl background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same White woman in her early 60s with the same silver long layers, right profile showing the soft long layers and natural silver-gray fall, right ear visible. Neutral solid warm-pearl background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  },
+  {
+    "id": "w-long-side-swept",
+    "genderFilter": "female",
+    "nameZh": "长斜刘海",
+    "nameEn": "Long Side-Swept Layers",
+    "category": "长层次",
+    "length": "long",
+    "texture": [
+      "straight",
+      "wavy"
+    ],
+    "densityFit": [
+      "medium"
+    ],
+    "bangs": "side",
+    "silhouette": "长发深侧分配一条长斜刘海扫过额头，其余层次顺滑、优雅大气。",
+    "keyCutFeatures": [
+      "深侧分",
+      "长斜刘海至颧骨或更下",
+      "刘海与侧面长层衔接",
+      "少量长层、发尾顺"
+    ],
+    "maintenance": "medium",
+    "dailyStylingMinutes": "5-10 分钟",
+    "realisticFor": "中等发量、喜欢优雅知性风格与深侧分露额线的女性。",
+    "notIdealFor": "自然卷刘海需吹直；发际线高者深侧分暴露较多。",
+    "stylistInstruction": "Long side-swept layers: deep side parting, one long side-swept fringe crossing the forehead to the cheekbone blending into long layers, a few long layers only, smooth ends.",
+    "frontImagePrompt": "Front view studio beauty portrait, chest-up, of an East Asian woman in her late 20s with natural black, medium-density straight hair in long side-swept layers, deep side parting, one long fringe sweeping across the forehead, chest-length smooth layers. Neutral solid ash-lavender background, soft even lighting, camera at eye level, shows hairline, temples, ears and the swept fringe. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the left and right views.",
+    "leftImagePrompt": "Left side profile view studio portrait, chest-up, of the same East Asian woman with the same long side-swept layers, left profile showing the long fringe sweeping left and the smooth long layers, left ear visible. Neutral solid ash-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and right views.",
+    "rightImagePrompt": "Right side profile view studio portrait, chest-up, of the same East Asian woman with the same long side-swept layers, right profile showing where the fringe begins at the right temple and the smooth long layers, right ear visible. Neutral solid ash-lavender background, soft even lighting, same lens distance. preserve natural facial proportions, no beauty filter, no skin smoothing, realistic hair density, visible individual hair strands, physically achievable salon haircut. Same adult, same hair color, same hair density, same lighting as the front and left views."
+  }
+]

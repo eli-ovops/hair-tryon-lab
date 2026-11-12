@@ -1,0 +1,17 @@
+{
+  "engine": "chromium-touch-emulation",
+  "before": {
+    "scrollTop": 0,
+    "scrollHeight": 100,
+    "clientHeight": 100,
+    "overflowY": "hidden",
+    "display": "flex",
+    "touchAction": "pan-y"
+  },
+  "after_swipe": {
+    "scrollTop": 0,
+    "maxScrollTop": 0
+  },
+  "last_entry_clickable": true,
+  "pass": false
+}

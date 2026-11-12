@@ -1,0 +1,105 @@
+{
+  "scope": "synthetic fixture only; local compositing mechanism, not production segmentation",
+  "candidate_generation": "ImageGen received source + visible annotation; annotation is advisory because the API has no explicit mask parameter",
+  "views": [
+    {
+      "view": "front",
+      "candidate": "真实发型试戴MVP/evidence/throwaway-hair-only-mask-spike-2026-08-07/controlled-output/front-imagegen-candidate-original.png",
+      "checks": {
+        "face": true,
+        "ears": true,
+        "neck": true,
+        "protected_anatomy": true,
+        "outside_binary_edit_mask": true
+      },
+      "stats": {
+        "face": {
+          "pixels": 79896,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "ears": {
+          "pixels": 9064,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "neck": {
+          "pixels": 29040,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "protected_anatomy": {
+          "pixels": 110278,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "outside_binary_edit_mask": {
+          "pixels": 393885,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        }
+      },
+      "verdict": "PASS"
+    },
+    {
+      "view": "left",
+      "candidate": "真实发型试戴MVP/evidence/throwaway-hair-only-mask-spike-2026-08-07/controlled-output/left-imagegen-candidate-original.png",
+      "checks": {
+        "face": true,
+        "ears": true,
+        "neck": true,
+        "protected_anatomy": true,
+        "outside_binary_edit_mask": true
+      },
+      "stats": {
+        "face": {
+          "pixels": 79292,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "ears": {
+          "pixels": 7992,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "neck": {
+          "pixels": 30560,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "protected_anatomy": {
+          "pixels": 108706,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        },
+        "outside_binary_edit_mask": {
+          "pixels": 383833,
+          "changed_pixels": 0,
+          "changed_percent": 0.0,
+          "mean_abs_difference": 0.0,
+          "max_abs_difference": 0.0
+        }
+      },
+      "verdict": "PASS"
+    }
+  ],
+  "verdict": "PASS"
+}

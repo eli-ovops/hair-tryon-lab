@@ -1,0 +1,15 @@
+{
+  "mode": "auditable_fake_landmarks",
+  "stable_required_ms": 900,
+  "result": "complete",
+  "completed": ["center", "left", "return_center", "right"],
+  "transitions": [
+    { "from": "waiting_permission", "to": "loading_model", "at_ms": 10013 },
+    { "from": "loading_model", "to": "center", "at_ms": 10132 },
+    { "from": "center", "to": "left", "at_ms": 11010, "yaw": 0, "roll": 2.8 },
+    { "from": "left", "to": "return_center", "at_ms": 11940, "yaw": -26 },
+    { "from": "return_center", "to": "right", "at_ms": 12862, "yaw": 0 },
+    { "from": "right", "to": "complete", "at_ms": 13790, "yaw": 26 }
+  ],
+  "note": "The inputs are an explicit canvas fake media stream and scripted landmark samples. This proves state-machine and render wiring, not real-person tracking quality."
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="真实发型试戴流程验证原型：三视图、现实约束、候选比较与发型师参考卡。" />
+  <title>剪之前｜真实发型决策原型</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23214b3b'/%3E%3Cpath d='M17 22h30M17 32h24M17 42h18' stroke='%23dce88c' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="回到顶部"><span>剪之前</span><small>THROWAWAY MVP</small></a>
+    <a class="scan-entry" href="scan.html">进入实时扫描 AR →</a>
+    <div class="privacy-chip">照片仅在此浏览器内存中处理 · 不上传</div>
+    <button class="text-button" id="resetTop" type="button">清除全部</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">不是“换一张更美的脸”，而是把问题问清楚</p>
+      <h1>剪下去之前，先看<br><em>三个角度</em>是否说得通。</h1>
+      <p class="hero-copy">上传正面与左右侧面，写下真实发质和打理预算，对比 2–3 个现实方向，再带一张参考卡去见发型师。</p>
+      <div class="truth-strip" role="note">
+        <strong>重要：</strong>本页没有接入换发 AI。预览是叠加在原图上的交互模拟轮廓，不代表剪后效果。
+      </div>
+    </section>
+
+    <nav class="steps" aria-label="流程进度">
+      <button class="step active" data-step-target="1"><span>01</span>三视图</button>
+      <button class="step" data-step-target="2"><span>02</span>真实条件</button>
+      <button class="step" data-step-target="3"><span>03</span>候选方向</button>
+      <button class="step" data-step-target="4"><span>04</span>比较与参考卡</button>
+    </nav>
+
+    <section class="panel active" data-step="1" aria-labelledby="step1Title">
+      <div class="section-head">
+        <div><p class="eyebrow">STEP 01 / INPUT</p><h2 id="step1Title">同一光线，三个角度</h2></div>
+        <p>露出发际线、耳朵和颈部；请勿使用带滤镜或已换发的照片。</p>
+      </div>
+      <div class="upload-grid" id="uploadGrid"></div>
+      <div class="local-note"><span>本地内存</span>关闭或刷新页面后照片会消失。我们不读取其他照片，不保存 EXIF，也不发送网络请求。</div>
+      <div class="actions"><span id="photoStatus" class="status">还需上传 3 张照片</span><button class="primary" id="toStep2" type="button">确认三视图 <span>→</span></button></div>
+    </section>
+
+    <section class="panel" data-step="2" aria-labelledby="step2Title">
+      <div class="section-head">
+        <div><p class="eyebrow">STEP 02 / REALITY</p><h2 id="step2Title">把现实条件写在图前面</h2></div>
+        <p>这些输入不会“分析”照片，而是帮助你和发型师排除不现实的方向。</p>
+      </div>
+      <form id="constraintsForm" class="constraint-form">
+        <label>当前长度<select name="length" required><option value="">请选择</option><option>耳上 / Pixie</option><option>耳下到下巴</option><option>下巴到肩</option><option>肩下到胸</option><option>胸下长发</option></select></label>
+        <label>发丝粗细<select name="strand" required><option value="">请选择</option><option>细软</option><option>中等</option><option>粗硬</option></select></label>
+        <label>密度<select name="density" required><option value="">请选择</option><option>低密度</option><option>中密度</option><option>高密度</option></select></label>
+        <label>自然纹理<select name="texture" required><option value="">请选择</option><option>直发</option><option>微波浪</option><option>卷发</option><option>紧卷</option></select></label>
+        <label>灰发比例<select name="gray" required><option value="">请选择</option><option>几乎没有</option><option>少于 25%</option><option>25%–50%</option><option>超过 50%</option><option>希望完整保留灰发</option></select></label>
+        <label>每日打理时间<select name="time" required><option value="">请选择</option><option>0–5 分钟</option><option>5–10 分钟</option><option>10–20 分钟</option><option>20 分钟以上</option></select></label>
+        <label class="wide">发旋 / 刘海 / 发际线限制<textarea name="limits" rows="3" placeholder="例如：右侧有强发旋，刘海容易分开；不接受每天夹板"></textarea></label>
+        <fieldset class="wide"><legend>这次真正想解决什么？</legend><div class="choice-grid" id="intentChoices"></div></fieldset>
+      </form>
+      <div class="actions"><button class="secondary back" type="button" data-back="1">← 返回</button><button class="primary" id="toStep3" type="button">生成候选方向 <span>→</span></button></div>
+    </section>
+
+    <section class="panel" data-step="3" aria-labelledby="step3Title">
+      <div class="section-head">
+        <div><p class="eyebrow">STEP 03 / DIRECTIONS</p><h2 id="step3Title">选 2–3 个方向，不抽卡</h2></div>
+        <p>每个方向是一组轮廓、长度、颜色与打理假设。默认选中三个，可按你的目标调整。</p>
+      </div>
+      <div class="candidate-grid" id="candidateGrid"></div>
+      <div class="actions"><button class="secondary back" type="button" data-back="2">← 返回</button><span id="candidateStatus" class="status">已选择 3 个方向</span><button class="primary" id="buildCompare" type="button">生成三视图比较 <span>→</span></button></div>
+    </section>
+
+    <section class="panel result-panel" data-step="4" aria-labelledby="step4Title">
+      <div class="section-head no-print">
+        <div><p class="eyebrow">STEP 04 / DECISION CARD</p><h2 id="step4Title">把漂亮图，变成可讨论的问题</h2></div>
+        <p>模拟层只帮助比较轮廓；请逐项核对正侧面一致、发量、打理和专业可实现性。</p>
+      </div>
+      <article id="referenceCard" class="reference-card">
+        <header class="card-header"><div><p class="eyebrow">给发型师的参考卡 · 原型</p><h2>我的发型改变讨论稿</h2></div><div class="card-date" id="cardDate"></div></header>
+        <div class="guardrails"><span>✓ 保持原脸</span><span>✓ 不虚增发量</span><span>✓ 正侧面一致检查</span><span>✓ 先谈可实现性</span></div>
+        <section class="card-section"><h3>我的真实条件</h3><div class="condition-summary" id="conditionSummary"></div></section>
+        <section class="card-section"><h3>候选方向的三视图模拟</h3><p class="simulation-warning">原型模拟，不代表剪后效果。原照片未被 AI 重绘；彩色轮廓仅表达长度、体积和颜色方向。</p><div id="comparison" class="comparison"></div></section>
+        <section class="card-section checks"><h3>见发型师时请一起检查</h3><div class="check-grid"><label><input type="checkbox"> 三个角度的长度和层次能否同时成立？</label><label><input type="checkbox"> 我的真实密度能否支撑这个体积？</label><label><input type="checkbox"> 发旋、发际线和刘海方向是否冲突？</label><label><input type="checkbox"> 每天的打理时间是否足够？</label><label><input type="checkbox"> 染/漂、灰发过渡会经历哪些中间阶段？</label><label><input type="checkbox"> 如不可实现，最接近的安全替代是什么？</label></div></section>
+        <footer class="legal">本卡仅用于视觉沟通，不保证真实剪发、染发或造型结果。效果受当前长度、发量、发质、卷度、发际线、发旋、灰发、化学处理、湿度和日常打理影响；不能替代专业发型师判断。面部照片属于敏感个人信息；本原型建议仅供 18 岁以上本人测试，未成年人照片请勿使用。</footer>
+      </article>
+      <div class="actions no-print"><button class="secondary back" type="button" data-back="3">← 调整候选</button><button class="secondary" id="resetResult" type="button">删除照片并重置</button><button class="primary" id="printCard" type="button">打印 / 另存为 PDF</button></div>
+    </section>
+
+    <section class="consent">
+      <h2>测试前请知道</h2>
+      <div><p><strong>照片与网络</strong>照片默认仅保存在当前标签页的内存里，不上传、不分析、不用于训练；刷新、关闭或点击重置即清除。</p><p><strong>人脸与未成年人</strong>只使用你有权使用的本人照片。首轮测试面向 18 岁以上成年人；请勿上传未成年人面部照片。</p><p><strong>结果边界</strong>这是交互流程与决策卡原型，不是真实换发 AI，也不构成理发、染发或健康建议。</p></div>
+    </section>
+  </main>
+
+  <div class="prototype-switcher no-print" aria-label="原型轻量变体切换"><button id="variantPrev" type="button" aria-label="上一个变体">←</button><span id="variantLabel">A — 引导式</span><button id="variantNext" type="button" aria-label="下一个变体">→</button></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="有限角度、浏览器本地处理的实时发型轮廓跟随技术原型。" />
+  <title>实时扫描｜真实发型试戴技术原型</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23214b3b'/%3E%3Cpath d='M18 42V24Q32 10 46 24V42' fill='none' stroke='%23dce88c' stroke-width='6'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="scan.css" />
+</head>
+<body>
+  <header class="scan-topbar">
+    <a class="scan-brand" href="index.html"><span>剪之前</span><small>THROWAWAY · L0</small></a>
+    <nav><a class="active" href="scan.html">实时扫描</a><a href="index.html">三照片确认</a></nav>
+    <button class="quiet" id="stopTop" type="button" disabled>停止摄像头</button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="kicker">SCAN PROTOTYPE / 2D–2.5D</p>
+        <h1>转头时，轮廓能不能<br><em>稳稳跟上？</em></h1>
+      </div>
+      <div class="intro-copy">
+        <p>这是有限角度技术验证，不是真正头部扫描、Face ID、3D 发型或照片级换发。支持范围暂定约左右 40°，需由你用真实摄像头确认。</p>
+        <div class="privacy-pill"><span></span>摄像头与 478 个关键点只在本机浏览器内处理</div>
+      </div>
+    </section>
+
+    <div class="test-banner" id="testBanner" hidden></div>
+
+    <section class="workspace">
+      <div class="camera-column">
+        <div class="camera-stage" id="cameraStage">
+          <video id="camera" playsinline muted></video>
+          <canvas id="fakeSource" width="960" height="720" hidden></canvas>
+          <canvas id="hairCanvas" width="960" height="720" aria-label="发型轮廓叠加层"></canvas>
+          <div class="scan-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="range-badge">有效范围约 ±40°</div>
+          <div class="no-camera" id="noCamera">
+            <div class="camera-icon">◉</div>
+            <h2>由你主动开启摄像头</h2>
+            <p>不会录制、上传、保存视频帧，也不会创建生物模板。浏览器可能弹出系统权限提示。</p>
+            <button class="primary" id="startScan" type="button">同意并开始校准</button>
+          </div>
+          <div class="out-range" id="outRange" hidden>超出跟踪范围 · 请缓慢转回</div>
+          <div class="model-loading" id="modelLoading" hidden><span></span>加载本地关键点模型…</div>
+        </div>
+
+        <div class="camera-actions">
+          <button class="secondary" id="retryScan" type="button" hidden>重新开始</button>
+          <button class="secondary danger" id="stopScan" type="button" disabled>停止摄像头并清除状态</button>
+          <a class="link-action" href="index.html">改用三照片确认 →</a>
+        </div>
+
+        <div class="occlusion-note"><strong>遮挡边界：</strong>轮廓层会挖空脸部区域，并对耳侧做前后层次近似；没有头发/耳朵/手的语义分割，侧发可能穿过耳朵或眼镜。请把它当形态草图。</div>
+      </div>
+
+      <aside class="control-column">
+        <section class="status-card">
+          <div class="status-head"><p class="kicker">CALIBRATION</p><span id="phaseCount">0 / 4</span></div>
+          <h2 id="phaseTitle">摄像头尚未开启</h2>
+          <p id="phaseCue">先阅读隐私说明，再由你主动授权</p>
+          <div class="progress-track"><span id="progressBar"></span></div>
+          <p class="feedback" id="feedback">等待你的操作</p>
+          <ol class="calibration-list" id="calibrationList">
+            <li data-phase="center"><b>01</b><span>正脸居中</span><i></i></li>
+            <li data-phase="left"><b>02</b><span>缓慢左转</span><i></i></li>
+            <li data-phase="return_center"><b>03</b><span>回到正面</span><i></i></li>
+            <li data-phase="right"><b>04</b><span>缓慢右转</span><i></i></li>
+          </ol>
+        </section>
+
+        <section class="style-card" id="styleCard" aria-labelledby="styleTitle">
+          <div class="status-head"><p class="kicker">LIVE SHAPE</p><span>校准后可选</span></div>
+          <h2 id="styleTitle">发型方向</h2>
+          <div class="style-options">
+            <button class="style-option selected" data-style="short" type="button"><span class="style-glyph short"></span><b>短层次</b><small>耳上、轻薄顶部</small></button>
+            <button class="style-option" data-style="bob" type="button"><span class="style-glyph bob"></span><b>Bob</b><small>下巴线、侧面重量</small></button>
+          </div>
+          <label class="opacity-control">轮廓透明度<input id="hairOpacity" type="range" min="35" max="90" value="68"><output id="opacityValue">68%</output></label>
+        </section>
+
+        <details class="diagnostics" open>
+          <summary>可审计跟踪状态</summary>
+          <dl><div><dt>输入</dt><dd id="inputMode">等待摄像头</dd></div><div><dt>Yaw 估算</dt><dd id="yawValue">—</dd></div><div><dt>Roll</dt><dd id="rollValue">—</dd></div><div><dt>脸部尺度</dt><dd id="scaleValue">—</dd></div><div><dt>跟踪帧率</dt><dd id="fpsValue">—</dd></div></dl>
+          <p>Yaw 来自鼻尖相对双眼中点的水平偏移并按正脸基线校准；不是测量级角度。Roll 来自双眼连线。位置与缩放来自 478 点边界。</p>
+        </details>
+      </aside>
+    </section>
+
+    <section class="handoff">
+      <div><p class="kicker">TWO MODES, TWO QUESTIONS</p><h2>实时只看形态，<br>三照片再谈决定。</h2></div>
+      <div class="handoff-grid"><article><b>实时 AR 轮廓</b><p>快速看短层次与 Bob 在有限转头范围内是否持续跟随。不能检查照片级真实度。</p></article><article><b>高质量三照片确认</b><p>补充发质、发量、灰发、发旋和打理预算，生成给发型师的讨论卡。</p><a href="index.html">进入三照片流程 →</a></article></div>
+    </section>
+
+    <section class="privacy-section">
+      <h2>摄像头和面部数据边界</h2>
+      <div><p><strong>只在浏览器内</strong>摄像头帧直接送入本机 WebAssembly 模型；没有帧上传接口、账号、数据库、分析或远程推理。</p><p><strong>模型已随原型本地提供</strong>MediaPipe JS/WASM 与模型位于 `vendor/`。首次打开只从 localhost 下载静态模型资产；下载模型不等于上传画面。</p><p><strong>停止即释放</strong>点击停止会停止全部 MediaStream track、关闭循环并清空校准状态。没有录制、截图、保存面部关键点或生物模板。</p><p><strong>仅限本人测试</strong>这不是 Face ID 或生物识别；不要用于未成年人、他人身份判断或任何高风险决定。</p></div>
+    </section>
+  </main>
+
+  <script type="module" src="scan.js"></script>
+</body>
+</html>

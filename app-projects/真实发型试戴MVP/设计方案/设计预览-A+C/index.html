@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#153e34" />
+    <title>剪之前 · A+C 设计预览</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23153e34'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="preview.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="剪之前 A+C 设计预览">
+      <p class="preview-mark">设计预览</p>
+      <section class="phone" aria-label="手机端发型决定流程">
+        <header class="topbar">
+          <button class="text-button" data-action="back" type="button">返回</button>
+          <strong>剪之前</strong>
+          <button class="text-button" data-action="info" type="button">说明</button>
+        </header>
+
+        <section class="screen active" data-screen="scan" aria-labelledby="scan-title" tabindex="-1">
+          <div class="screen-heading"><p>01 / 04</p><h1 id="scan-title">扫描</h1></div>
+          <div class="camera-photo asset-wrap">
+            <img src="assets/scan-portrait.png" alt="正脸扫描示例人物" />
+            <span class="asset-fallback">图像预览</span>
+            <ol class="scan-progress" aria-label="扫描进度"><li class="active">正</li><li>左</li><li>右</li></ol>
+            <p class="camera-prompt">正脸对准框内</p>
+          </div>
+          <p class="microcopy">仅在本机处理</p>
+          <button class="primary" data-go="browse" type="button">开始扫描</button>
+        </section>
+
+        <section class="screen" data-screen="browse" aria-labelledby="browse-title" tabindex="-1">
+          <div class="screen-heading"><p>02 / 04</p><h1 id="browse-title">选一个方向</h1></div>
+          <p class="style-name" data-style-name>柔和 Bob</p>
+          <div class="browse-photo asset-wrap"><img src="assets/look-full-1.png" alt="柔和 Bob 发型示例" data-hero-image /><span class="asset-fallback">发型预览</span></div>
+          <div class="filmstrip" role="group" aria-label="发型方向">
+            <button class="look selected" data-look="柔和 Bob" data-image="assets/look-full-1.png" type="button" aria-pressed="true"><img src="assets/look-1.png" alt="柔和 Bob" /></button>
+            <button class="look" data-look="轻层次" data-image="assets/look-full-2.png" type="button" aria-pressed="false"><img src="assets/look-2.png" alt="轻层次" /></button>
+            <button class="look" data-look="锁骨层次" data-image="assets/look-full-3.png" type="button" aria-pressed="false"><img src="assets/look-3.png" alt="锁骨层次" /></button>
+            <button class="look" data-look="短发" data-image="assets/look-full-4.png" type="button" aria-pressed="false"><img src="assets/look-4.png" alt="短发" /></button>
+          </div>
+          <button class="primary" data-go="tryon" type="button">试戴</button>
+        </section>
+
+        <section class="screen try-screen" data-screen="tryon" aria-labelledby="tryon-title" tabindex="-1">
+          <div class="try-head"><h1 id="tryon-title" data-try-name>柔和 Bob</h1><span>稳定</span></div>
+          <div class="try-photo asset-wrap"><img src="assets/look-full-1.png" alt="柔和 Bob 试戴示例" data-try-image /><span class="asset-fallback">试戴预览</span></div>
+          <div class="angle-tabs" role="tablist" aria-label="查看角度">
+            <button class="selected" role="tab" aria-selected="true" type="button">正面</button><button role="tab" aria-selected="false" type="button">左侧</button><button role="tab" aria-selected="false" type="button">右侧</button>
+          </div>
+          <button class="primary" data-go="card" type="button">拍照并继续</button>
+        </section>
+
+        <section class="screen card-screen" data-screen="card" aria-labelledby="card-title" tabindex="-1">
+          <div class="screen-heading"><p>04 / 04</p><h1 id="card-title">参考卡</h1></div>
+          <p class="style-name" data-card-name>柔和 Bob</p>
+          <div class="view-grid" aria-label="正面、左侧、右侧发型示例">
+            <figure class="asset-wrap"><img src="assets/card-front.png" alt="柔和 Bob 正面" /><span class="asset-fallback">正面</span><figcaption>正面</figcaption></figure>
+            <figure class="asset-wrap"><img src="assets/card-left.png" alt="柔和 Bob 左侧" /><span class="asset-fallback">左侧</span><figcaption>左侧</figcaption></figure>
+            <figure class="asset-wrap"><img src="assets/card-right.png" alt="柔和 Bob 右侧" /><span class="asset-fallback">右侧</span><figcaption>右侧</figcaption></figure>
+          </div>
+          <ul class="specs" aria-label="关键规格"><li>下巴线</li><li>自然微卷</li><li>10 分钟</li></ul>
+          <button class="primary" type="button" data-action="share">保存 / 分享</button>
+        </section>
+
+        <nav class="screen-nav" aria-label="设计预览导航">
+          <button class="selected" data-go="scan" type="button">扫描</button><button data-go="browse" type="button">发型</button><button data-go="tryon" type="button">试戴</button><button data-go="card" type="button">参考卡</button>
+        </nav>
+      </section>
+    </main>
+    <script src="preview.js"></script>
+  </body>
+</html>
